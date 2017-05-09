@@ -11,6 +11,7 @@
 @interface SYPay ()
 
 @property (nonatomic, strong) SYPayment *payment;
+@property (nonatomic, strong) SYPayDefaultConfigurator *payDefaultConfigurator;
 
 @end
 
@@ -53,6 +54,10 @@
 
 + (BOOL)handleOpenURL:(NSURL *)URL sourceApplication:(nullable NSString *)application {
     return [[SYPay pay].payment handleOpenURL:URL];
+}
+
++ (void)setPayPayDefaultConfigurator:(SYPayDefaultConfigurator *)payDefaultConfigurator {
+    [SYPay pay].payDefaultConfigurator = payDefaultConfigurator;
 }
 
 + (void)setDebugMode:(BOOL)enabled {

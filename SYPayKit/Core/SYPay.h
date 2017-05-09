@@ -14,12 +14,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface SYPay : NSObject
 
-+ (instancetype)pay;
-
 /**
  * 支付配置
  */
-@property (nonatomic, strong) SYPayDefaultConfigurator *payDefaultConfigurator;
++ (void)setPayPayDefaultConfigurator:(SYPayDefaultConfigurator *)payDefaultConfigurator;
 
 /**
  *  支付调用接口(支付宝/微信)
@@ -49,7 +47,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (BOOL)handleOpenURL:(NSURL *)URL sourceApplication:(nullable NSString *)application;
 
 /**
- * @params enable：
+ * 设置是否是测试环境，银联支付有环境配置
  */
 + (void)setDebugMode:(BOOL)enabled;
 

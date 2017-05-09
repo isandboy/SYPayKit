@@ -31,7 +31,9 @@
 - (BOOL)handleOpenURL:(NSURL *)url {
     if ([url.host isEqualToString:@"safepay"]) {
         [[AlipaySDK defaultService] processOrderWithPaymentResult:url standbyCallback:^(NSDictionary *resultDic) {
+#ifdef DEBUG
             NSLog(@"result = %@", [[self class] returnErrorMessage:[[resultDic objectForKey:@"resultStatus"] integerValue]]);
+#ifdef DEBUG
             [self parse:resultDic];
         }];
     }
