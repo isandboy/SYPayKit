@@ -1,0 +1,6 @@
+framework module SYPayKit {
+  umbrella header "SYPayKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

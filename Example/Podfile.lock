@@ -1,0 +1,27 @@
+PODS:
+  - SYPayKit (0.1.0):
+    - SYPayKit/Alipay (= 0.1.0)
+    - SYPayKit/Core (= 0.1.0)
+    - SYPayKit/UnionPay (= 0.1.0)
+    - SYPayKit/WXPay (= 0.1.0)
+  - SYPayKit/Alipay (0.1.0):
+    - SYPayKit/Core
+  - SYPayKit/Core (0.1.0)
+  - SYPayKit/UnionPay (0.1.0):
+    - SYPayKit/Core
+  - SYPayKit/WXPay (0.1.0):
+    - SYPayKit/Core
+
+DEPENDENCIES:
+  - SYPayKit (from `../`)
+
+EXTERNAL SOURCES:
+  SYPayKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SYPayKit: e50d67e21bda70acb376245dca4e762a38f25531
+
+PODFILE CHECKSUM: 898431d697c49616f8039fb7009ce36113ae80fd
+
+COCOAPODS: 1.2.0
