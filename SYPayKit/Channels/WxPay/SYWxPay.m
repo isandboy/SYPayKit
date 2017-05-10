@@ -51,7 +51,7 @@
 - (void)jumpToPay:(NSObject *)order result:(SYPayResultHandle)resultHandle{
     if (![WXApi isWXAppInstalled]) {
         NSError *error = [NSError errorWithDomain:NSStringFromClass(SYWxPay.class) code:kSYPayErrorCode userInfo:@{NSLocalizedDescriptionKey:@"应用未安装"}];
-        resultHandle(SYPayResultStatusCancel, nil, error);
+        resultHandle(SYPayResultStatusUnInstall, nil, error);
         return;
     } else if (![WXApi isWXAppSupportApi]) {
         NSError *error = [NSError errorWithDomain:NSStringFromClass(self.class) code:kSYPayErrorCode userInfo:@{NSLocalizedDescriptionKey:@"该版本微信不支持支付"}];

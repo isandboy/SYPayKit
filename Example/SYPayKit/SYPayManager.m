@@ -15,11 +15,16 @@ static NSString *const kDefaultPayFailueMessage = @"订单支付失败";
 static NSString *const kDefaultPaySuccessMessage = @"订单支付成功";
 static NSString *const kDefaultPayCancelMessage = @"订单支付取消";
 static NSString *const kDefaultPayProcessingMessage = @"系统原因还在等待支付结果确认";
+static NSString *const kDefaultPayUnInstallMessage = @"应用未安装";
 
 static const NSInteger kDefaultPayFailueStatus = -1; //支付失败
 static const NSInteger kDefaultPaySuccessStatus = 0; //支付成功
+static const NSInteger kDefaultPayCancelStatus = 1; //支付取消
 static const NSInteger kDefaultPayProcessingStatus = 2; //支付处理中
-static const NSInteger kDefaultPayCancelStatus = 3; //支付取消
+static const NSInteger kDefaultPayUnInstallStatus = 3; //应用未安装
+
+/// 如果发起支付端是web，以上回调信息和状态，根据和web端的约定而定
+/// 否则，依据产品需求而修改提示文字
 
 @implementation SYPayManager
 
@@ -100,9 +105,14 @@ static const NSInteger kDefaultPayCancelStatus = 3; //支付取消
                 payResult(kDefaultPayProcessingStatus, @{kMSPayResultMessage:message ?: kDefaultPayProcessingMessage}, nil);
             }
                 break;
-            default:
+            case SYPayResultStatusFailure:
             {
                 payResult(kDefaultPayFailueStatus, @{kMSPayResultMessage:message ?: kDefaultPayFailueMessage}, nil);
+            }
+                break;
+            default:
+            {
+                payResult(kDefaultPayUnInstallStatus, @{kMSPayResultMessage:message ?: kDefaultPayUnInstallMessage}, nil);
             }
                 break;
         }

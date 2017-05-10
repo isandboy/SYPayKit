@@ -42,7 +42,12 @@ typedef NS_ENUM(NSInteger, SYPayResultStatus) {
      *  银联苹果支付，使用该状态判断
      *  支付取消，交易已发起，状态不确定，商户需查询商户后台确认支付状态
      */
-    SYPayResultStatusUnknownCancel
+    SYPayResultStatusUnknownCancel,
+    /**
+     *  第三方支付app未安装
+     *  目前只有微信需要判断，支付宝和银联支持网页支付
+     */
+    SYPayResultStatusUnInstall
 };
 
 typedef void(^SYPayResultHandle)(SYPayResultStatus status, NSDictionary * __nullable returnedInfo, NSError * __nullable error);
