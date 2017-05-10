@@ -33,7 +33,7 @@
         [[AlipaySDK defaultService] processOrderWithPaymentResult:url standbyCallback:^(NSDictionary *resultDic) {
 #ifdef DEBUG
             NSLog(@"result = %@", [[self class] returnErrorMessage:[[resultDic objectForKey:@"resultStatus"] integerValue]]);
-#ifdef DEBUG
+#endif
             [self parse:resultDic];
         }];
     }

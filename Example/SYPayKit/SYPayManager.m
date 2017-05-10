@@ -27,7 +27,7 @@ static const NSInteger kDefaultPayCancelStatus = 3; //支付取消
     SYPayDefaultConfigurator *payDefalutConfigurator = [[SYPayDefaultConfigurator alloc] init];
     payDefalutConfigurator.appScheme = @"你的target的scheme";
     payDefalutConfigurator.wxPayAppId = @"在微信平台申请的appid";
-    [SYPay pay].payDefaultConfigurator = payDefalutConfigurator;
+    [SYPay setPayPayDefaultConfigurator:payDefalutConfigurator];
 }
 
 + (void)pay:(NSDictionary *)orderInfo viewController:(UIViewController *)viewController completion:(SYPayResult)payResult {
