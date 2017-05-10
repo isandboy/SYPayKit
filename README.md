@@ -54,12 +54,12 @@ NSDictionary *order = @{kMSPayOrderKey:@"201506221028315777129"};
 ```
 # 支付宝支付order
 {
-		kMSPayOrderKey: "partner=\"--------------\"&seller_id=\"-------------\"&out_trade_no=\"-----------\"&subject=\"areyouok\"&body=\"nama\"&total_fee=\"0.01\"&notify_url=\""&service=\"\"&payment_type=\"1\"&_input_charset=\"utf-8\"&it_b_pay=\"30m\"&sign=\"GsSZgPloF1vn52XAItRAldwQAbzIgkDyByCxMfTZG%2FMapRoyrNIJo4U1LUGjHp6gdBZ7U8jA1kljLPqkeGv8MZigd3kH25V0UK3Jc3C94Ngxm5S%2Fz5QsNr6wnqNY9sx%2Bw6DqNdEQnnks7PKvvU0zgsynip50lAhJmflmfHvp%2Bgk%3D\"&sign_type=\"RSA\"&appenv=\"system= ^version=\"&goods_type=\"0\"&rn_check=\"F\""
+		kSYPayOrderKey: "partner=\"--------------\"&seller_id=\"-------------\"&out_trade_no=\"-----------\"&subject=\"areyouok\"&body=\"nama\"&total_fee=\"0.01\"&notify_url=\""&service=\"\"&payment_type=\"1\"&_input_charset=\"utf-8\"&it_b_pay=\"30m\"&sign=\"GsSZgPloF1vn52XAItRAldwQAbzIgkDyByCxMfTZG%2FMapRoyrNIJo4U1LUGjHp6gdBZ7U8jA1kljLPqkeGv8MZigd3kH25V0UK3Jc3C94Ngxm5S%2Fz5QsNr6wnqNY9sx%2Bw6DqNdEQnnks7PKvvU0zgsynip50lAhJmflmfHvp%2Bgk%3D\"&sign_type=\"RSA\"&appenv=\"system= ^version=\"&goods_type=\"0\"&rn_check=\"F\""
   }
 
 # 微信支付order
 
-{ kMSPayOrderKey: {
+{ kSYPayOrderKey: {
 			"appid": "wx-----------",
 			"partnerid": "-----------",
 			"noncestr": "-----------",
@@ -71,7 +71,7 @@ NSDictionary *order = @{kMSPayOrderKey:@"201506221028315777129"};
 }
 
 # 银联支付order
-{kMSPayOrderKey:@"--------------------" }
+{kSYPayOrderKey:@"--------------------" }
 ```
 更详细的情况可以参考demo里面的SYPayManager类
 
