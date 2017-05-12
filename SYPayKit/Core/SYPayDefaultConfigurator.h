@@ -31,10 +31,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 #endif
 
-#if __has_include(<SYPayKit/SYApplePay.h>)
-// 苹果支付
-@property (nonatomic, copy) NSString *appleMechantId;
-#endif
+//#if __has_include(<SYPayKit/SYApplePay.h>)
+//// 苹果支付
+//@property (nonatomic, copy) NSString *appleMechantId;
+//#endif
 
 @end
 
