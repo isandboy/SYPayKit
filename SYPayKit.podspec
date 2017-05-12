@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'SYPayKit'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of SYPayKit.'
+  s.summary          = '集成微信、银联、支付宝支付'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,8 +18,10 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+    1. 集成微信、银联、支付宝三种支付方式
+    2. 对外抽象统一接口
+    3. 支持OC，Swift项目，可以打包成动态库
+                     DESC
 
   s.homepage         = 'https://github.com/isandboy/SYPayKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -39,9 +41,10 @@ TODO: Add long description of the pod here.
 
   s.subspec 'Alipay' do |ss|
     ss.source_files = 'SYPayKit/Channels/Alipay/*.{h,m}'
+    ss.resource = 'SYPayKit/Channels/Alipay/**/AlipaySDK.bundle'
     ss.frameworks = 'CoreTelephony', 'SystemConfiguration', 'CoreMotion'
     ss.vendored_frameworks = 'SYPayKit/Channels/Alipay/**/AlipaySDK.framework'
-    ss.resource = 'SYPayKit/Channels/Alipay/**/AlipaySDK.bundle'
+    ss.libraries = 'c++', 'sqlite3', 'z'
     ss.dependency 'SYPayKit/Core'
   end
 
@@ -57,6 +60,7 @@ TODO: Add long description of the pod here.
   s.subspec 'UnionPay' do |ss|
     ss.source_files = 'SYPayKit/Channels/UnionPay/**/*.{h,m}'
     ss.vendored_libraries = 'SYPayKit/Channels/UnionPay/**/*.a'
+    ss.libraries = 'c++', 'sqlite3', 'z'
     ss.dependency 'SYPayKit/Core'
   end
 
