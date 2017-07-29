@@ -1,0 +1,6 @@
+framework module SYUPPaySDK {
+  umbrella header "SYUPPaySDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

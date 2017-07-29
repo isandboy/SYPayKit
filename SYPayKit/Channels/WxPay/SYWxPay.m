@@ -7,7 +7,8 @@
 //
 
 #import "SYWxPay.h"
-#import "WxApi.h"
+
+@import SYWechatOpenSDK;
 
 @interface SYWxPay()<WXApiDelegate>
 

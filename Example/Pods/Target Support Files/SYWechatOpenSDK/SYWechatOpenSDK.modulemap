@@ -1,0 +1,6 @@
+framework module SYWechatOpenSDK {
+  umbrella header "SYWechatOpenSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

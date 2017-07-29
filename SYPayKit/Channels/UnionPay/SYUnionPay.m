@@ -7,7 +7,8 @@
 //
 
 #import "SYUnionPay.h"
-#import "UPPaymentControl.h"
+
+@import SYUPPaySDK;
 
 static NSString *const kUnionPayStatusSuccess = @"success";
 static NSString *const kUnionPayStatusFailure = @"fail";

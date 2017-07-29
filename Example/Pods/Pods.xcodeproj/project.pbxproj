@@ -7,126 +7,272 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1092D53B38849341C9005427C62D82E9 /* SYWxPay.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFFBE7C6E2A9C4B883E72B31812CB79 /* SYWxPay.m */; };
-		1494C4FAAA731ABD71A64474C06EFCC7 /* WXApiObject.h in Headers */ = {isa = PBXBuildFile; fileRef = D2832D21E5D00F886D46745799F1C9A2 /* WXApiObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1CB6EF741583948784E54179227752A6 /* Pods-SYPayKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E40E1A97A8C8DB7357927CDEEDCCB0C8 /* Pods-SYPayKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3C7C5FB0A11FE7A128FC5409CA3FC434 /* SYPayment.h in Headers */ = {isa = PBXBuildFile; fileRef = A2C4C703E14CE3996C2B121B0A0BBA95 /* SYPayment.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4744E84583498D4589F92EB2A0095E3B /* SYUnionPay.h in Headers */ = {isa = PBXBuildFile; fileRef = AFB64A54D46519CEB321079608FDDCD0 /* SYUnionPay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04EB65D24DB1B0B08D6B17886DA7C021 /* AlipaySDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 053DED9CF133C9D86B47DD1459166D82 /* AlipaySDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		06F5EDAC6866B52FE414815A8163A026 /* WXApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 93C41916033B295297F3E8AA315357A6 /* WXApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0707D7D86A131311C4B0010107BDD59E /* SYAlipay.h in Headers */ = {isa = PBXBuildFile; fileRef = A9BC78B62F6C957AE5AC6CAF6621F129 /* SYAlipay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		071C00278C5059E367F19D66ACFA4026 /* SYUPPaySDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3CE79C05C132CF5746CBB0888DF6BF /* SYUPPaySDK-dummy.m */; };
+		190909DD95F27BE532799C55E0D416F8 /* SYWechatOpenSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A97FCA9C97E69F59378E9A6C1C5FFDD7 /* SYWechatOpenSDK.framework */; };
+		27472A4B346FEAE30838D7B5C850F1F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B0EF5C67F7ABF0C7FA237B0DE68373 /* Foundation.framework */; };
+		300BCB3B28FE21B0C5D80D6C32FE064F /* SYUPPaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 625A062C0EE021C340D9DF2E805CED28 /* SYUPPaySDK.framework */; };
+		3239B9FEB043AA1ABC2F9416D70FD4CB /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35D05AD9F1522A310839E8FD4E4FFF1A /* CFNetwork.framework */; };
+		35EAE3BF4E0D7D16380A69454C22554D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B0EF5C67F7ABF0C7FA237B0DE68373 /* Foundation.framework */; };
+		363FE17FAEE60483087E95260CA6FA6C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9C6613181D103E135B5AB2B5C19DADB /* SystemConfiguration.framework */; };
+		367798507026B112E54740073AC93F9E /* SYWechatOpenSDKDummp.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2EB3D6B60534CD2D77815B6E520149 /* SYWechatOpenSDKDummp.m */; };
+		3705140A7BA1CD3E591E19028E285484 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C791E092B7F8E788B624E215B89E6C55 /* CoreTelephony.framework */; };
+		3F20655E4DA812BC88D9ABD5ACABDECE /* SYUPPaySDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E601D9B0327616A25756392E9279A3EA /* SYUPPaySDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45164EDA37754BD02B76F1A88FA08217 /* SYAlipaySDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2741C0EEB4BA9CC54617A39846A682EC /* SYAlipaySDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48E886E71EA4ACE1ACEFB7D3A332CB69 /* SYPayKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA016680F823DBCD0E74E72C4A268B93 /* SYPayKit-dummy.m */; };
 		4A539C26BAA5948789FE80F1848F901E /* Pods-SYPayKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6381B8009F7312E719102CAEF3AFB89F /* Pods-SYPayKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		53375FD20DD885E61459C7274E1B3905 /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 77603223540E9732636068313EE7A8E7 /* AlipaySDK.bundle */; };
-		552143D8379B15681FCC11E825B05ECC /* SYUnionPay.m in Sources */ = {isa = PBXBuildFile; fileRef = 8198D8A947A5A16A3444236A2559B375 /* SYUnionPay.m */; };
-		619369933B7CB7A3AD0420F291316476 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEEDBB4AE554D57121DF9E84CD6B4B0F /* CoreMotion.framework */; };
-		63EC2C28FE3BDBE6ABF551538FB114A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A51C5FD2ABF4470236E58D410C55A5E /* Foundation.framework */; };
-		6DCCC5E08A2AADED02240A0D473CF91E /* SYPayKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D63E2E15CFFF3A9E9CA243852C0049C /* SYPayKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		714314E00BFDF14A9E76D3DA8DC97DE2 /* SYPayDefaultConfigurator.h in Headers */ = {isa = PBXBuildFile; fileRef = F8EAAD85F48E5987B5F8B3635422CC64 /* SYPayDefaultConfigurator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		87DCABDB2067ADB22D6CF61B5FC286B6 /* UPPaymentControl.h in Headers */ = {isa = PBXBuildFile; fileRef = E6F834B6479CA0F5C7B76E3CB02257D6 /* UPPaymentControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		88F254E0B11894F696DD9361FF05C818 /* SYPayDefaultConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = F2903646DBEF4A7918A22F46666B5845 /* SYPayDefaultConfigurator.m */; };
-		9694C7FC25B6A0362507CD5826EED09A /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2CE86A8683413B7DED941AF776319DB /* CFNetwork.framework */; };
-		A67F4CD5283FFE297E3C37F70195FD44 /* SYPayKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A54AC1A5BE84BBD8D784A6E5BEF2A6F /* SYPayKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AFD3A8DA6FB938841676C4F4F32F3772 /* Pods-SYPayKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 31FB35177D46BF040663F3BFAF076D4D /* Pods-SYPayKit_Example-dummy.m */; };
+		4D31907E75EA4BFB22C1A7F8725E3B71 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35D05AD9F1522A310839E8FD4E4FFF1A /* CFNetwork.framework */; };
+		56899D1727AF41FD96B7D569822A2EFB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9C6613181D103E135B5AB2B5C19DADB /* SystemConfiguration.framework */; };
+		571E19DA36F3029787966192228553B9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2FF000B766EEECC76467307C630CC24 /* UIKit.framework */; };
+		5FA6B795D9D4AA89EADB9C1157E27F64 /* WechatAuthSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 13244E753086B14EC9BAAE0951ACA337 /* WechatAuthSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		624C3AB4E209C2CEDC15DC018EE97206 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C791E092B7F8E788B624E215B89E6C55 /* CoreTelephony.framework */; };
+		63B45B3CCBA9734DEE2BB3B4F8BDC9CE /* SYWxPay.m in Sources */ = {isa = PBXBuildFile; fileRef = CD311BB0E7E78502B3AEA45C3C4C96E5 /* SYWxPay.m */; };
+		66CDAE059F63AFC242409C86BDA50DC1 /* SYUnionPay.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D1FBE0582D4C5C116349C9CF4C61D5C /* SYUnionPay.m */; };
+		6B9219EBD19E60EFA11AE1BD5504128D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B0EF5C67F7ABF0C7FA237B0DE68373 /* Foundation.framework */; };
+		6CD10E7E18B7BA029E18E97719FEA9D1 /* SYAlipayDummp.h in Headers */ = {isa = PBXBuildFile; fileRef = 55033267F9674BA50F68E63F415B049D /* SYAlipayDummp.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6E542055C9082287610424277C5876AB /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D808FB23D93D197407A893C2682C711 /* Security.framework */; };
+		6FF8A6F44F9C05846319F8ECCA413DC4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13202E161362D8FE3401E2289F52CCA1 /* QuartzCore.framework */; };
+		73B8F2821948D688DACE5A3E8419E2C2 /* SYAlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 583C0E56140D96405059BC01A096E142 /* SYAlipaySDK.framework */; };
+		75E23FBFB4D510A55A7A23853D4AECE5 /* SYPayDefaultConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DA6C06BD8A897E1D6927E601D2A7561 /* SYPayDefaultConfigurator.m */; };
+		79CB5FF230A2CCDF123289B9586A7BA5 /* Pods-SYPayKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 31FB35177D46BF040663F3BFAF076D4D /* Pods-SYPayKit_Example-dummy.m */; };
+		7A2AA06063F14E30D7716239D008377B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9C6613181D103E135B5AB2B5C19DADB /* SystemConfiguration.framework */; };
+		7B17C2E6277CDC069DA9E0F465DFE8A1 /* SYWechatOpenSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BBA83903771A102054F4CEA1569D8860 /* SYWechatOpenSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		819ABEE11AFA5434476E23006BEFD5E2 /* UPPaymentControl.h in Headers */ = {isa = PBXBuildFile; fileRef = C73552EE38D6DAE13E2B773496BADFED /* UPPaymentControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C1BAD478D9F73E8FDEFFEFF622B913E /* WXApiObject.h in Headers */ = {isa = PBXBuildFile; fileRef = DF68E2764F4E84B5EBAEC8BC8AC51BBD /* WXApiObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91D782720CD2D80BC7D77BCBC560B6FC /* SYUPPayDummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 974E82986E3C43883B52E6D2F976A274 /* SYUPPayDummy.m */; };
+		93F7842A347907D486944BC02DF259A7 /* SYWechatOpenSDKDummp.h in Headers */ = {isa = PBXBuildFile; fileRef = CF7585BDE0C06242CE561C58D68E0F7A /* SYWechatOpenSDKDummp.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9B1DF017885831ADAAB863DD8066163D /* SYAlipay.m in Sources */ = {isa = PBXBuildFile; fileRef = E4457717394F06A0B23A0D242581A19B /* SYAlipay.m */; };
+		A177EFF5CCFE1DF983BD298F670CF649 /* SYUnionPay.h in Headers */ = {isa = PBXBuildFile; fileRef = A7517E4A45ECEB980571E4C50A53FEC9 /* SYUnionPay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4DCE7C3A738D8900197FA931DAC4717 /* SYUPPayDummy.h in Headers */ = {isa = PBXBuildFile; fileRef = C85343552B09E7BF0EF4680069911537 /* SYUPPayDummy.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A4E69FCEDFFF8A661D1AB7A169F8747F /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0B049128A8FA583641324F90EB30710 /* CoreMotion.framework */; };
+		A7E8BD43409EB03E525F2DC24BAADD33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B0EF5C67F7ABF0C7FA237B0DE68373 /* Foundation.framework */; };
+		B0836EB4311AEDBA85E7C5FB1DBC07D3 /* SYPay.m in Sources */ = {isa = PBXBuildFile; fileRef = B8CA448B4448CB0ABC1CE2646E46A892 /* SYPay.m */; };
 		B37003DF8EA19D23546C8B5DD2ECE91F /* Pods-SYPayKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEDC349736E30709A89F5723384E96D /* Pods-SYPayKit_Tests-dummy.m */; };
-		B95A76ADBE5C73E2FF2735EB2E8AE683 /* SYPayKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4078333A7244495A72A7784517DE2852 /* SYPayKit-dummy.m */; };
-		BCBF3B7AA984DFDB57306A46768FA99B /* SYAlipay.m in Sources */ = {isa = PBXBuildFile; fileRef = E7AA4240F38E3E94AEE299580B51BE4D /* SYAlipay.m */; };
-		C36F4289CCC28A0C9255F87E11E57B24 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D7D514447F36ECD7681DFE9E55FAC06 /* SystemConfiguration.framework */; };
-		C635F5A925D44CC0D42B88B3E6CA7DB6 /* SYAlipay.h in Headers */ = {isa = PBXBuildFile; fileRef = 59D5BDBAFF889DB7DC939EC506A05964 /* SYAlipay.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D42F275701F861F9AACC69C3BB526C19 /* SYPay.m in Sources */ = {isa = PBXBuildFile; fileRef = 039731F5AC5B75851706A8D71474C2AD /* SYPay.m */; };
-		D9EC55FFFF7E1F1BF2198537FF9BFC58 /* SYPay.h in Headers */ = {isa = PBXBuildFile; fileRef = CDE1A64BF70C19E45475CDCAC88927C7 /* SYPay.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E54A968F166AB67B701EF8DF67095AC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A51C5FD2ABF4470236E58D410C55A5E /* Foundation.framework */; };
-		EACEDB8181C60AD526816142D833DC18 /* SYWxPay.h in Headers */ = {isa = PBXBuildFile; fileRef = 57F9DB57D0BFC8ED6CD92AE088C99D33 /* SYWxPay.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EC3AD313B5C7FBB346FF61C16D5E870F /* WechatAuthSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = B67852BAF5538A19A9F1B3364A9A10B9 /* WechatAuthSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F2F43DBD259125B7CAC89A2B0D3E2BE2 /* WXApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D0678B433F1CCE50874C75B11028DE1 /* WXApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F4BEAC1E183593150689028949E40D8B /* SYPayment.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9381D4308BA0DEAEF0CC1B0AF0EE3E /* SYPayment.m */; };
-		F5C190C2F001F1C560777866A6E27575 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C161C0DE2FB6A4DB23EA4B2D1C35AF /* CoreTelephony.framework */; };
-		FD80411B97F6650F652FD01E21F29F47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A51C5FD2ABF4470236E58D410C55A5E /* Foundation.framework */; };
+		BA47B727BE072A6D4842FF89CA370BF7 /* SYWxPay.h in Headers */ = {isa = PBXBuildFile; fileRef = 363A26D3FD70B2BD115087BF6615652F /* SYWxPay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB105E29859CCCAE48D1437F14BB26A4 /* Pods-SYPayKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E40E1A97A8C8DB7357927CDEEDCCB0C8 /* Pods-SYPayKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9C776089355A4FB9EBE28EEC7F87B50 /* SYPayDefaultConfigurator.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EC1FCB8236A9E436BDC9232378463E0 /* SYPayDefaultConfigurator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBB500CDA22EC8143A2AFDA3D595BDC5 /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B345BCEDD1E17D0E23E16E8CA8012F93 /* AlipaySDK.bundle */; };
+		CEC46217543E0307E1C0E8DDDF0E860A /* APayAuthInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = EDFCDC560C4424771C66CF065F10535A /* APayAuthInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D254CCE34501D2B2561DA23DED4D1849 /* SYPayKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D3312D9F1881BBF12108E257156DD9E /* SYPayKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2A3A3A086EB7B643C83B7EB80F54698 /* SYPay.h in Headers */ = {isa = PBXBuildFile; fileRef = FBA5151943CF0D4EC39D8DC4CD253231 /* SYPay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E41006180ABE1003878AB1A3D663B651 /* SYPayKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D98BFB30DB608A5E353F0AA31417709 /* SYPayKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E85420CD4C08C326B0267D4B45953D94 /* SYAlipaySDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA64BF6B9766F6059350F5153E1EACA /* SYAlipaySDK-dummy.m */; };
+		EB455AA958B79A2835DE413E82AEA316 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B0EF5C67F7ABF0C7FA237B0DE68373 /* Foundation.framework */; };
+		EEF7C7B0142BEE2BB4576AED9D21B069 /* SYAlipayDummp.m in Sources */ = {isa = PBXBuildFile; fileRef = 56B4035A4562751CE3BA3953EA3F4E96 /* SYAlipayDummp.m */; };
+		F0316DF99CC10EE8FCEF077D9D49DCB7 /* SYWechatOpenSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F07292F27CD0C5FB7420AA64E6F1DC43 /* SYWechatOpenSDK-dummy.m */; };
+		F6D88950BDBCA92BE8B2C67FFC4A3ED6 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FA02F70BD9559496AEAF0F70114DA04 /* CoreText.framework */; };
+		F7062072E4BFB08FFD39E1B91576ACC7 /* SYPayment.h in Headers */ = {isa = PBXBuildFile; fileRef = B7397D69D5A51FAE0708C1820BE0E426 /* SYPayment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F874D827074E1DB614CB77B073E6376D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35D05AD9F1522A310839E8FD4E4FFF1A /* CFNetwork.framework */; };
+		F87B0C8F44580674AC8284651ABA9E69 /* SYPayment.m in Sources */ = {isa = PBXBuildFile; fileRef = 71FC822D8A70F3AFABDD3D1C5E931C9D /* SYPayment.m */; };
+		FC6DB5D54D6BFB02E8998D42FC60703F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F423428DEDDF25C18EE2DD9F2626C3C /* CoreGraphics.framework */; };
+		FD80411B97F6650F652FD01E21F29F47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B0EF5C67F7ABF0C7FA237B0DE68373 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		DAE7CC4E8732ED3BBD8BCFDB0CB8F51E /* PBXContainerItemProxy */ = {
+		13ABBFE6D51CE93C6334E20DD3CCF64E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C66C9EBB9FF080620DF7D9BB83ADAC68;
+			remoteGlobalIDString = 7D6303F8F6B2C5E7D8AAD56B048E202E;
+			remoteInfo = SYUPPaySDK;
+		};
+		5202EF178D5CADDE54EFE2E6DA2E5693 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D6303F8F6B2C5E7D8AAD56B048E202E;
+			remoteInfo = SYUPPaySDK;
+		};
+		577A5C87620BBF6794F5AC4F1492C4C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05D3BDEC8F381524E6D3F13011E1778D;
+			remoteInfo = SYWechatOpenSDK;
+		};
+		7D4C611BFEF85024DE91A30DC5290713 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05D3BDEC8F381524E6D3F13011E1778D;
+			remoteInfo = SYWechatOpenSDK;
+		};
+		875B0504FF22783F0D1AA624BDA9336B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 427374AE25FC9BF67438961BE351605D;
+			remoteInfo = SYAlipaySDK;
+		};
+		CC4BF4D826D5D6EA1D270510CBADA33F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC8B0703C3A49F0BE551D9B4E960A81F;
 			remoteInfo = SYPayKit;
+		};
+		F70EFB7BDBFCEBBDCE3C1153E9801B08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 427374AE25FC9BF67438961BE351605D;
+			remoteInfo = SYAlipaySDK;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		039731F5AC5B75851706A8D71474C2AD /* SYPay.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SYPay.m; sourceTree = "<group>"; };
+		053DED9CF133C9D86B47DD1459166D82 /* AlipaySDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AlipaySDK.h; path = SYAlipaySDK/AlipaySDK.framework/Headers/AlipaySDK.h; sourceTree = "<group>"; };
 		0A37A365FE31AFC5F6DB2DC2DE99FD69 /* Pods-SYPayKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SYPayKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		0CEEC26E6F4EA41EFE9786DA2E1EA54E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0D7D514447F36ECD7681DFE9E55FAC06 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		0EC1FCB8236A9E436BDC9232378463E0 /* SYPayDefaultConfigurator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SYPayDefaultConfigurator.h; sourceTree = "<group>"; };
+		0FDEDFDEEE8EE3CBABF8E9AD06AFC778 /* SYUPPaySDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SYUPPaySDK.xcconfig; sourceTree = "<group>"; };
+		13202E161362D8FE3401E2289F52CCA1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		13244E753086B14EC9BAAE0951ACA337 /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = SYWechatOpenSDK/WechatAuthSDK.h; sourceTree = "<group>"; };
+		15E126C2D64839D81450925825BE4993 /* SYWechatOpenSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SYWechatOpenSDK.modulemap; sourceTree = "<group>"; };
+		1746CCB1EBECB1EF0BFA16F0EF972657 /* SYPayKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SYPayKit.framework; path = SYPayKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F8A46C96E2DE8945BAEC8786DA9FA2A /* Pods-SYPayKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SYPayKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		24FB407BA472F3A69A05695A1B5FABBF /* Pods-SYPayKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SYPayKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		2741C0EEB4BA9CC54617A39846A682EC /* SYAlipaySDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SYAlipaySDK-umbrella.h"; sourceTree = "<group>"; };
+		2A01B61535580098AF18D7E205E5EE27 /* SYWechatOpenSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SYWechatOpenSDK.framework; path = SYWechatOpenSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BA8994DC6D59B238BF9044C5C439F7E /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = SYWechatOpenSDK/libWeChatSDK.a; sourceTree = "<group>"; };
 		2BADA791799D19151EABE8F7023698A5 /* Pods-SYPayKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SYPayKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2C9381D4308BA0DEAEF0CC1B0AF0EE3E /* SYPayment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SYPayment.m; sourceTree = "<group>"; };
-		2D63E2E15CFFF3A9E9CA243852C0049C /* SYPayKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SYPayKit-umbrella.h"; sourceTree = "<group>"; };
+		2D1FBE0582D4C5C116349C9CF4C61D5C /* SYUnionPay.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SYUnionPay.m; sourceTree = "<group>"; };
+		2D808FB23D93D197407A893C2682C711 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		2E2B20999B1BC3FA0332EFFB4FF08A79 /* Pods_SYPayKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SYPayKit_Tests.framework; path = "Pods-SYPayKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E925ECE03035EF1C0E5B56B0A98F6AA /* Pods-SYPayKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SYPayKit_Example-resources.sh"; sourceTree = "<group>"; };
 		31FB35177D46BF040663F3BFAF076D4D /* Pods-SYPayKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SYPayKit_Example-dummy.m"; sourceTree = "<group>"; };
-		3A54AC1A5BE84BBD8D784A6E5BEF2A6F /* SYPayKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SYPayKit.h; sourceTree = "<group>"; };
-		4078333A7244495A72A7784517DE2852 /* SYPayKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SYPayKit-dummy.m"; sourceTree = "<group>"; };
+		35D05AD9F1522A310839E8FD4E4FFF1A /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		363A26D3FD70B2BD115087BF6615652F /* SYWxPay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SYWxPay.h; sourceTree = "<group>"; };
 		41CB833194CEAA38042D566A050F42A7 /* Pods-SYPayKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SYPayKit_Example.modulemap"; sourceTree = "<group>"; };
-		546DA405449E09C9E4BDEAE8308F2B98 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		547F31E3322AE4BC90F05A5CDD507B75 /* SYPayKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SYPayKit.xcconfig; sourceTree = "<group>"; };
-		57F9DB57D0BFC8ED6CD92AE088C99D33 /* SYWxPay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SYWxPay.h; sourceTree = "<group>"; };
-		59D5BDBAFF889DB7DC939EC506A05964 /* SYAlipay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SYAlipay.h; sourceTree = "<group>"; };
+		4709AD01C1AC6B7D6A122E30CD1F1B98 /* SYWechatOpenSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SYWechatOpenSDK-prefix.pch"; sourceTree = "<group>"; };
+		4D3312D9F1881BBF12108E257156DD9E /* SYPayKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SYPayKit-umbrella.h"; sourceTree = "<group>"; };
+		4DA6C06BD8A897E1D6927E601D2A7561 /* SYPayDefaultConfigurator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SYPayDefaultConfigurator.m; sourceTree = "<group>"; };
+		5014FD4E885A254714824AA328FD4091 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55033267F9674BA50F68E63F415B049D /* SYAlipayDummp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SYAlipayDummp.h; path = SYAlipaySDK/SYAlipayDummp.h; sourceTree = "<group>"; };
+		56B4035A4562751CE3BA3953EA3F4E96 /* SYAlipayDummp.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SYAlipayDummp.m; path = SYAlipaySDK/SYAlipayDummp.m; sourceTree = "<group>"; };
+		582218318E7F70ABFAEF21608ECBEE7C /* SYPayKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SYPayKit-prefix.pch"; sourceTree = "<group>"; };
+		583C0E56140D96405059BC01A096E142 /* SYAlipaySDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SYAlipaySDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		598F70D8416BCE8F8378E23BFB4BB595 /* libPaymentControl.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libPaymentControl.a; path = SYUPPaySDK/paymentcontrol/libs/libPaymentControl.a; sourceTree = "<group>"; };
 		5A2AF4B647CE462AC3331F88A597A413 /* Pods-SYPayKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SYPayKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		61F0EBD66BDF3C53CA60A1F0BF326C7A /* Pods_SYPayKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SYPayKit_Tests.framework; path = "Pods-SYPayKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FA02F70BD9559496AEAF0F70114DA04 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		6104F5EF18BA5A435E38BEAB1F1E87ED /* SYUPPaySDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SYUPPaySDK.modulemap; sourceTree = "<group>"; };
+		625A062C0EE021C340D9DF2E805CED28 /* SYUPPaySDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SYUPPaySDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62A592C8A37596A6CB57DFE689562983 /* SYAlipaySDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SYAlipaySDK.xcconfig; sourceTree = "<group>"; };
 		6381B8009F7312E719102CAEF3AFB89F /* Pods-SYPayKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SYPayKit_Tests-umbrella.h"; sourceTree = "<group>"; };
-		65B5318AC0E6F9D9B70873E98B0CB7FC /* libPaymentControl.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libPaymentControl.a; path = SYPayKit/Channels/UnionPay/Vender/paymentcontrol/libs/libPaymentControl.a; sourceTree = "<group>"; };
 		68445CA4B7EE55767ACFD15B7B1C7738 /* Pods-SYPayKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SYPayKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6A51C5FD2ABF4470236E58D410C55A5E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		698CC5C9935518F64183D136EE89D9CD /* SYUPPaySDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SYUPPaySDK-prefix.pch"; sourceTree = "<group>"; };
 		6B3599B95464A1A2B2984678A10433BC /* Pods-SYPayKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SYPayKit_Tests.modulemap"; sourceTree = "<group>"; };
 		6BDF89EF048849D999DE553D74914825 /* Pods-SYPayKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SYPayKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		6D0678B433F1CCE50874C75B11028DE1 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		6BE95F7A48C58102B253FD4154B09EF6 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlipaySDK.framework; path = SYAlipaySDK/AlipaySDK.framework; sourceTree = "<group>"; };
 		6DEDC349736E30709A89F5723384E96D /* Pods-SYPayKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SYPayKit_Tests-dummy.m"; sourceTree = "<group>"; };
-		747AC1ABDA83D8FA2A67607F86C01A27 /* SYPayKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SYPayKit.framework; path = SYPayKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		77603223540E9732636068313EE7A8E7 /* AlipaySDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
-		7F83B384299CCED3F3228F075F30E572 /* SYPayKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SYPayKit.modulemap; sourceTree = "<group>"; };
-		8198D8A947A5A16A3444236A2559B375 /* SYUnionPay.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SYUnionPay.m; sourceTree = "<group>"; };
+		71FC822D8A70F3AFABDD3D1C5E931C9D /* SYPayment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SYPayment.m; sourceTree = "<group>"; };
+		7F423428DEDDF25C18EE2DD9F2626C3C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		819F7D2365DCFEAD92939D65C7B6F9F2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		913A73A69848B7DF57CFA30F4F496524 /* Pods_SYPayKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SYPayKit_Example.framework; path = "Pods-SYPayKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9FFFBE7C6E2A9C4B883E72B31812CB79 /* SYWxPay.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SYWxPay.m; sourceTree = "<group>"; };
-		A2C4C703E14CE3996C2B121B0A0BBA95 /* SYPayment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SYPayment.h; sourceTree = "<group>"; };
-		A56DB78D2A4EED2B849DB81BD7A7C546 /* Pods_SYPayKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SYPayKit_Example.framework; path = "Pods-SYPayKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A7775451E13221BA8E96A0EB97BC9A57 /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = SYPayKit/Channels/WxPay/Vender/libWeChatSDK.a; sourceTree = "<group>"; };
+		93C41916033B295297F3E8AA315357A6 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = SYWechatOpenSDK/WXApi.h; sourceTree = "<group>"; };
+		974E82986E3C43883B52E6D2F976A274 /* SYUPPayDummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SYUPPayDummy.m; path = SYUPPaySDK/SYUPPayDummy.m; sourceTree = "<group>"; };
+		9D98BFB30DB608A5E353F0AA31417709 /* SYPayKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SYPayKit.h; sourceTree = "<group>"; };
+		A2FF000B766EEECC76467307C630CC24 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		A7517E4A45ECEB980571E4C50A53FEC9 /* SYUnionPay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SYUnionPay.h; sourceTree = "<group>"; };
+		A97FCA9C97E69F59378E9A6C1C5FFDD7 /* SYWechatOpenSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SYWechatOpenSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9BC78B62F6C957AE5AC6CAF6621F129 /* SYAlipay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SYAlipay.h; sourceTree = "<group>"; };
+		A9C6613181D103E135B5AB2B5C19DADB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		A9F8FEADA13C61092C3CD98A0A70193C /* SYUPPaySDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SYUPPaySDK.framework; path = SYUPPaySDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA016680F823DBCD0E74E72C4A268B93 /* SYPayKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SYPayKit-dummy.m"; sourceTree = "<group>"; };
 		ABED3F32C2B217D4AF511CD4D34ADDA4 /* Pods-SYPayKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SYPayKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		AFB64A54D46519CEB321079608FDDCD0 /* SYUnionPay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SYUnionPay.h; sourceTree = "<group>"; };
-		B67852BAF5538A19A9F1B3364A9A10B9 /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
-		B8A8BCA58E091AAA7D4BD78C42F58299 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlipaySDK.framework; path = SYPayKit/Channels/Alipay/Vender/AlipaySDK.framework; sourceTree = "<group>"; };
-		CDE1A64BF70C19E45475CDCAC88927C7 /* SYPay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SYPay.h; sourceTree = "<group>"; };
+		AF2EB3D6B60534CD2D77815B6E520149 /* SYWechatOpenSDKDummp.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SYWechatOpenSDKDummp.m; path = SYWechatOpenSDK/SYWechatOpenSDKDummp.m; sourceTree = "<group>"; };
+		AFBD2A91A6A48A8D6EE0438FA62C3F1A /* SYAlipaySDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SYAlipaySDK-prefix.pch"; sourceTree = "<group>"; };
+		B345BCEDD1E17D0E23E16E8CA8012F93 /* AlipaySDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = AlipaySDK.bundle; path = SYAlipaySDK/AlipaySDK.bundle; sourceTree = "<group>"; };
+		B72E9469A058634DBE3BE20547AA41BB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7397D69D5A51FAE0708C1820BE0E426 /* SYPayment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SYPayment.h; sourceTree = "<group>"; };
+		B8CA448B4448CB0ABC1CE2646E46A892 /* SYPay.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SYPay.m; sourceTree = "<group>"; };
+		BBA83903771A102054F4CEA1569D8860 /* SYWechatOpenSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SYWechatOpenSDK-umbrella.h"; sourceTree = "<group>"; };
+		C0C526437527EC9EBC306E08BDE00AC1 /* SYAlipaySDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SYAlipaySDK.modulemap; sourceTree = "<group>"; };
+		C3B0EF5C67F7ABF0C7FA237B0DE68373 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C73552EE38D6DAE13E2B773496BADFED /* UPPaymentControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UPPaymentControl.h; path = SYUPPaySDK/paymentcontrol/inc/UPPaymentControl.h; sourceTree = "<group>"; };
+		C791E092B7F8E788B624E215B89E6C55 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		C85343552B09E7BF0EF4680069911537 /* SYUPPayDummy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SYUPPayDummy.h; path = SYUPPaySDK/SYUPPayDummy.h; sourceTree = "<group>"; };
+		C887D99AD4E874F4417C1CC7588858BE /* SYPayKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SYPayKit.modulemap; sourceTree = "<group>"; };
+		CD311BB0E7E78502B3AEA45C3C4C96E5 /* SYWxPay.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SYWxPay.m; sourceTree = "<group>"; };
+		CF3CE79C05C132CF5746CBB0888DF6BF /* SYUPPaySDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SYUPPaySDK-dummy.m"; sourceTree = "<group>"; };
+		CF7585BDE0C06242CE561C58D68E0F7A /* SYWechatOpenSDKDummp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SYWechatOpenSDKDummp.h; path = SYWechatOpenSDK/SYWechatOpenSDKDummp.h; sourceTree = "<group>"; };
 		D213A3EFF5E6DA8F30781E3AD1D21353 /* Pods-SYPayKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SYPayKit_Example-frameworks.sh"; sourceTree = "<group>"; };
-		D2832D21E5D00F886D46745799F1C9A2 /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
 		D3FD2C225C540E5148D8F4CD3E213E12 /* Pods-SYPayKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SYPayKit_Tests-resources.sh"; sourceTree = "<group>"; };
-		DE0FF61F23EA48F8D4C585037256FDFF /* SYPayKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SYPayKit-prefix.pch"; sourceTree = "<group>"; };
+		DEAF1364B506E4E16F8BEA2A81DB31AB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF68E2764F4E84B5EBAEC8BC8AC51BBD /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = SYWechatOpenSDK/WXApiObject.h; sourceTree = "<group>"; };
+		DFA64BF6B9766F6059350F5153E1EACA /* SYAlipaySDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SYAlipaySDK-dummy.m"; sourceTree = "<group>"; };
+		E25DEE3388D8DA230B3F4B1656F6FA07 /* SYAlipaySDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SYAlipaySDK.framework; path = SYAlipaySDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E40E1A97A8C8DB7357927CDEEDCCB0C8 /* Pods-SYPayKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SYPayKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		E4457717394F06A0B23A0D242581A19B /* SYAlipay.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SYAlipay.m; sourceTree = "<group>"; };
 		E5F42A5F01DB2FFF85ECDE11BEF4BC35 /* Pods-SYPayKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SYPayKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E601D9B0327616A25756392E9279A3EA /* SYUPPaySDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SYUPPaySDK-umbrella.h"; sourceTree = "<group>"; };
 		E66ABAA2FA4EC1C5200229730B6AF021 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E6F834B6479CA0F5C7B76E3CB02257D6 /* UPPaymentControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UPPaymentControl.h; sourceTree = "<group>"; };
-		E7AA4240F38E3E94AEE299580B51BE4D /* SYAlipay.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SYAlipay.m; sourceTree = "<group>"; };
-		EEEDBB4AE554D57121DF9E84CD6B4B0F /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
-		F2903646DBEF4A7918A22F46666B5845 /* SYPayDefaultConfigurator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SYPayDefaultConfigurator.m; sourceTree = "<group>"; };
-		F2CE86A8683413B7DED941AF776319DB /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
-		F3C161C0DE2FB6A4DB23EA4B2D1C35AF /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
-		F8EAAD85F48E5987B5F8B3635422CC64 /* SYPayDefaultConfigurator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SYPayDefaultConfigurator.h; sourceTree = "<group>"; };
+		EDFCDC560C4424771C66CF065F10535A /* APayAuthInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APayAuthInfo.h; path = SYAlipaySDK/AlipaySDK.framework/Headers/APayAuthInfo.h; sourceTree = "<group>"; };
+		F07292F27CD0C5FB7420AA64E6F1DC43 /* SYWechatOpenSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SYWechatOpenSDK-dummy.m"; sourceTree = "<group>"; };
+		F0B049128A8FA583641324F90EB30710 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
+		F29790C49A1E8C19A049FCD3B008EA22 /* SYPayKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SYPayKit.xcconfig; sourceTree = "<group>"; };
+		F9D3052D0F5133C187017A335BAA934B /* SYWechatOpenSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SYWechatOpenSDK.xcconfig; sourceTree = "<group>"; };
+		FBA5151943CF0D4EC39D8DC4CD253231 /* SYPay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SYPay.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1609328ED09DEDE321F675FC0E053FA8 /* Frameworks */ = {
+		2A28305BAA769DE860C26D61F84929CE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9694C7FC25B6A0362507CD5826EED09A /* CFNetwork.framework in Frameworks */,
-				619369933B7CB7A3AD0420F291316476 /* CoreMotion.framework in Frameworks */,
-				F5C190C2F001F1C560777866A6E27575 /* CoreTelephony.framework in Frameworks */,
-				63EC2C28FE3BDBE6ABF551538FB114A9 /* Foundation.framework in Frameworks */,
-				C36F4289CCC28A0C9255F87E11E57B24 /* SystemConfiguration.framework in Frameworks */,
+				3239B9FEB043AA1ABC2F9416D70FD4CB /* CFNetwork.framework in Frameworks */,
+				FC6DB5D54D6BFB02E8998D42FC60703F /* CoreGraphics.framework in Frameworks */,
+				A4E69FCEDFFF8A661D1AB7A169F8747F /* CoreMotion.framework in Frameworks */,
+				3705140A7BA1CD3E591E19028E285484 /* CoreTelephony.framework in Frameworks */,
+				F6D88950BDBCA92BE8B2C67FFC4A3ED6 /* CoreText.framework in Frameworks */,
+				27472A4B346FEAE30838D7B5C850F1F4 /* Foundation.framework in Frameworks */,
+				6FF8A6F44F9C05846319F8ECCA413DC4 /* QuartzCore.framework in Frameworks */,
+				7A2AA06063F14E30D7716239D008377B /* SystemConfiguration.framework in Frameworks */,
+				571E19DA36F3029787966192228553B9 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2916C4530C36D2E2AFACAA3B1CC0FF59 /* Frameworks */ = {
+		AB3BC27DC417F0D8FE95846CD8A2A08B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E54A968F166AB67B701EF8DF67095AC8 /* Foundation.framework in Frameworks */,
+				6B9219EBD19E60EFA11AE1BD5504128D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C45FFCF25E8A7409A83B9C2FDD635694 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D31907E75EA4BFB22C1A7F8725E3B71 /* CFNetwork.framework in Frameworks */,
+				624C3AB4E209C2CEDC15DC018EE97206 /* CoreTelephony.framework in Frameworks */,
+				EB455AA958B79A2835DE413E82AEA316 /* Foundation.framework in Frameworks */,
+				6E542055C9082287610424277C5876AB /* Security.framework in Frameworks */,
+				56899D1727AF41FD96B7D569822A2EFB /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E177305F074D8700BCED415B24053335 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35EAE3BF4E0D7D16380A69454C22554D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8EDF7F39D1D26DC94728743908DC2B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F874D827074E1DB614CB77B073E6376D /* CFNetwork.framework in Frameworks */,
+				A7E8BD43409EB03E525F2DC24BAADD33 /* Foundation.framework in Frameworks */,
+				73B8F2821948D688DACE5A3E8419E2C2 /* SYAlipaySDK.framework in Frameworks */,
+				363FE17FAEE60483087E95260CA6FA6C /* SystemConfiguration.framework in Frameworks */,
+				300BCB3B28FE21B0C5D80D6C32FE064F /* SYUPPaySDK.framework in Frameworks */,
+				190909DD95F27BE532799C55E0D416F8 /* SYWechatOpenSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,15 +287,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		007C0C0A00A8CD68ED22ED67DEE3D68D /* WXPay */ = {
-			isa = PBXGroup;
-			children = (
-				7C0E0F34E6C73B35B364780B08695AE9 /* Frameworks */,
-				E0B0693094B5F6DF035EE222CB97F35A /* SYPayKit */,
-			);
-			name = WXPay;
-			sourceTree = "<group>";
-		};
 		01C6AEF9EBE65B0D29F76DED80779437 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -177,115 +314,87 @@
 			path = "Target Support Files/Pods-SYPayKit_Example";
 			sourceTree = "<group>";
 		};
-		1239D664E655EF17CE3A354E199738D4 /* Core */ = {
+		0B4577322A1586C88A825E04D4BD9F00 /* SYPayKit */ = {
 			isa = PBXGroup;
 			children = (
-				8EC0C1AD12A736998B986F79FA66C970 /* SYPayKit */,
-			);
-			name = Core;
-			sourceTree = "<group>";
-		};
-		12DE1626A3929E46F119525DC01A1412 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A56DB78D2A4EED2B849DB81BD7A7C546 /* Pods_SYPayKit_Example.framework */,
-				61F0EBD66BDF3C53CA60A1F0BF326C7A /* Pods_SYPayKit_Tests.framework */,
-				747AC1ABDA83D8FA2A67607F86C01A27 /* SYPayKit.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		1334F7ACB1DAE4ECAD670F34C8079C8F /* UnionPay */ = {
-			isa = PBXGroup;
-			children = (
-				AFB64A54D46519CEB321079608FDDCD0 /* SYUnionPay.h */,
-				8198D8A947A5A16A3444236A2559B375 /* SYUnionPay.m */,
-				CAB0FCA2A0E47FE4FE5B447312B7FE1E /* Vender */,
-			);
-			name = UnionPay;
-			path = UnionPay;
-			sourceTree = "<group>";
-		};
-		153D1AEC59C7951C48A0FEA5C3904542 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				2AEAC318E604DB8036F83B0A32431DBB /* SYPayKit */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		15DAB6AA5C17894AE6DF65C6940EB8FE /* UnionPay */ = {
-			isa = PBXGroup;
-			children = (
-				43727CED3865E9B14D0A7CD5EABCD4B5 /* Frameworks */,
-				A0AD10C8447121D8D8A8530AC9793BAC /* SYPayKit */,
-			);
-			name = UnionPay;
-			sourceTree = "<group>";
-		};
-		189B1E0F9DFCEA8A94FB90289666AE0A /* Channels */ = {
-			isa = PBXGroup;
-			children = (
-				8A6A0CC37B981CAE01137862910DE193 /* Alipay */,
-			);
-			name = Channels;
-			path = Channels;
-			sourceTree = "<group>";
-		};
-		20B56609144CE204DFA8221F742B2D76 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				868AA92A10A4A9EE8773CB80C812FE0A /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		2868422FCC2A7AA0F3E33670826D5CBA /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				38955E26350B15C86DB26B2A2C7C87A6 /* SYPayKit */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		2AEAC318E604DB8036F83B0A32431DBB /* SYPayKit */ = {
-			isa = PBXGroup;
-			children = (
-				7D71EB38C3FACACCF0CE2743D4F12E02 /* Alipay */,
-				1239D664E655EF17CE3A354E199738D4 /* Core */,
-				FD51F5B3F2B93B221ED6A820660AAB21 /* Support Files */,
-				6FE61BDEEF5C610D5E14FC476250AC10 /* SYPayKit */,
-				15DAB6AA5C17894AE6DF65C6940EB8FE /* UnionPay */,
-				007C0C0A00A8CD68ED22ED67DEE3D68D /* WXPay */,
-			);
-			name = SYPayKit;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		38955E26350B15C86DB26B2A2C7C87A6 /* SYPayKit */ = {
-			isa = PBXGroup;
-			children = (
-				189B1E0F9DFCEA8A94FB90289666AE0A /* Channels */,
+				9D98BFB30DB608A5E353F0AA31417709 /* SYPayKit.h */,
 			);
 			name = SYPayKit;
 			path = SYPayKit;
 			sourceTree = "<group>";
 		};
-		43727CED3865E9B14D0A7CD5EABCD4B5 /* Frameworks */ = {
+		153D1AEC59C7951C48A0FEA5C3904542 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				65B5318AC0E6F9D9B70873E98B0CB7FC /* libPaymentControl.a */,
+				7B62E455EB025F2EA10B1056E5DC8E81 /* SYPayKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		21AE70D59A64D7DF76D7165DC69E9F47 /* SYPayKit */ = {
+			isa = PBXGroup;
+			children = (
+				6E69200414383790B0DC8116DB444BFC /* Core */,
+			);
+			name = SYPayKit;
+			path = SYPayKit;
+			sourceTree = "<group>";
+		};
+		22B9F852B2B96079F082374ADCD51855 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BA8994DC6D59B238BF9044C5C439F7E /* libWeChatSDK.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		4C3F4C7FE2A65DA60B178AD02374BACF /* paymentcontrol */ = {
+		23977CE9745C928E375C374FFAB6E321 /* WXPay */ = {
 			isa = PBXGroup;
 			children = (
-				5BB40E4D5210AF1158CDCB42AB47C0D7 /* inc */,
+				78E0AF5E0B31EA6A1C4D2A44B83C64D0 /* SYPayKit */,
 			);
-			name = paymentcontrol;
-			path = paymentcontrol;
+			name = WXPay;
+			sourceTree = "<group>";
+		};
+		2662EB0E92C22E8541E8F42AC276B5C8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5014FD4E885A254714824AA328FD4091 /* Info.plist */,
+				6104F5EF18BA5A435E38BEAB1F1E87ED /* SYUPPaySDK.modulemap */,
+				0FDEDFDEEE8EE3CBABF8E9AD06AFC778 /* SYUPPaySDK.xcconfig */,
+				CF3CE79C05C132CF5746CBB0888DF6BF /* SYUPPaySDK-dummy.m */,
+				698CC5C9935518F64183D136EE89D9CD /* SYUPPaySDK-prefix.pch */,
+				E601D9B0327616A25756392E9279A3EA /* SYUPPaySDK-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SYUPPaySDK";
+			sourceTree = "<group>";
+		};
+		39BFA77CDCF40D49EFF6C23E4EC390F8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B72E9469A058634DBE3BE20547AA41BB /* Info.plist */,
+				C0C526437527EC9EBC306E08BDE00AC1 /* SYAlipaySDK.modulemap */,
+				62A592C8A37596A6CB57DFE689562983 /* SYAlipaySDK.xcconfig */,
+				DFA64BF6B9766F6059350F5153E1EACA /* SYAlipaySDK-dummy.m */,
+				AFBD2A91A6A48A8D6EE0438FA62C3F1A /* SYAlipaySDK-prefix.pch */,
+				2741C0EEB4BA9CC54617A39846A682EC /* SYAlipaySDK-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SYAlipaySDK";
+			sourceTree = "<group>";
+		};
+		45C8FE6D023914843E8B8221A2CA8207 /* SYUPPaySDK */ = {
+			isa = PBXGroup;
+			children = (
+				C85343552B09E7BF0EF4680069911537 /* SYUPPayDummy.h */,
+				974E82986E3C43883B52E6D2F976A274 /* SYUPPayDummy.m */,
+				C73552EE38D6DAE13E2B773496BADFED /* UPPaymentControl.h */,
+				60579C452EB2667D936CBC44EBA3F96A /* Frameworks */,
+				2662EB0E92C22E8541E8F42AC276B5C8 /* Support Files */,
+			);
+			name = SYUPPaySDK;
+			path = SYUPPaySDK;
 			sourceTree = "<group>";
 		};
 		52C82F04146769DC4A782D348A92CC3B /* Pods-SYPayKit_Tests */ = {
@@ -306,48 +415,97 @@
 			path = "Target Support Files/Pods-SYPayKit_Tests";
 			sourceTree = "<group>";
 		};
-		5BB40E4D5210AF1158CDCB42AB47C0D7 /* inc */ = {
+		5BE7AA455DF8DE5CE3EEE48F1FF4AEB8 /* UnionPay */ = {
 			isa = PBXGroup;
 			children = (
-				E6F834B6479CA0F5C7B76E3CB02257D6 /* UPPaymentControl.h */,
+				A7517E4A45ECEB980571E4C50A53FEC9 /* SYUnionPay.h */,
+				2D1FBE0582D4C5C116349C9CF4C61D5C /* SYUnionPay.m */,
 			);
-			name = inc;
-			path = inc;
+			name = UnionPay;
+			path = UnionPay;
 			sourceTree = "<group>";
 		};
-		6FE61BDEEF5C610D5E14FC476250AC10 /* SYPayKit */ = {
+		60579C452EB2667D936CBC44EBA3F96A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3A54AC1A5BE84BBD8D784A6E5BEF2A6F /* SYPayKit.h */,
+				598F70D8416BCE8F8378E23BFB4BB595 /* libPaymentControl.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		62A2FDE29FDD4ADB9451C2C75D3B0E72 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				819F7D2365DCFEAD92939D65C7B6F9F2 /* Info.plist */,
+				C887D99AD4E874F4417C1CC7588858BE /* SYPayKit.modulemap */,
+				F29790C49A1E8C19A049FCD3B008EA22 /* SYPayKit.xcconfig */,
+				AA016680F823DBCD0E74E72C4A268B93 /* SYPayKit-dummy.m */,
+				582218318E7F70ABFAEF21608ECBEE7C /* SYPayKit-prefix.pch */,
+				4D3312D9F1881BBF12108E257156DD9E /* SYPayKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SYPayKit";
+			sourceTree = "<group>";
+		};
+		6826702546CF6E704870AB5009D5299A /* Channels */ = {
+			isa = PBXGroup;
+			children = (
+				DC4FC970BD5C7A5B815C65FF13F7B164 /* WxPay */,
+			);
+			name = Channels;
+			path = Channels;
+			sourceTree = "<group>";
+		};
+		6E69200414383790B0DC8116DB444BFC /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				FBA5151943CF0D4EC39D8DC4CD253231 /* SYPay.h */,
+				B8CA448B4448CB0ABC1CE2646E46A892 /* SYPay.m */,
+				0EC1FCB8236A9E436BDC9232378463E0 /* SYPayDefaultConfigurator.h */,
+				4DA6C06BD8A897E1D6927E601D2A7561 /* SYPayDefaultConfigurator.m */,
+				B7397D69D5A51FAE0708C1820BE0E426 /* SYPayment.h */,
+				71FC822D8A70F3AFABDD3D1C5E931C9D /* SYPayment.m */,
+			);
+			name = Core;
+			path = Core;
+			sourceTree = "<group>";
+		};
+		6E989C4D6DDBCD4370EBF2B9A91D3D23 /* SYAlipaySDK */ = {
+			isa = PBXGroup;
+			children = (
+				053DED9CF133C9D86B47DD1459166D82 /* AlipaySDK.h */,
+				EDFCDC560C4424771C66CF065F10535A /* APayAuthInfo.h */,
+				55033267F9674BA50F68E63F415B049D /* SYAlipayDummp.h */,
+				56B4035A4562751CE3BA3953EA3F4E96 /* SYAlipayDummp.m */,
+				99E2E873E5D9E86D8DA8821D437B9405 /* Frameworks */,
+				F145C3ED425DDFA232BF214D4C4657BB /* Resources */,
+				39BFA77CDCF40D49EFF6C23E4EC390F8 /* Support Files */,
+			);
+			name = SYAlipaySDK;
+			path = SYAlipaySDK;
+			sourceTree = "<group>";
+		};
+		78E0AF5E0B31EA6A1C4D2A44B83C64D0 /* SYPayKit */ = {
+			isa = PBXGroup;
+			children = (
+				6826702546CF6E704870AB5009D5299A /* Channels */,
 			);
 			name = SYPayKit;
 			path = SYPayKit;
 			sourceTree = "<group>";
 		};
-		71E58F1AFBABCAF88FDB58C257453806 /* Frameworks */ = {
+		7B62E455EB025F2EA10B1056E5DC8E81 /* SYPayKit */ = {
 			isa = PBXGroup;
 			children = (
-				B8A8BCA58E091AAA7D4BD78C42F58299 /* AlipaySDK.framework */,
+				F9853F039C6FDE8BD9E7127B0432F62E /* Alipay */,
+				A5A81CCCDCC2200CAC995A25355BFE3C /* Core */,
+				62A2FDE29FDD4ADB9451C2C75D3B0E72 /* Support Files */,
+				0B4577322A1586C88A825E04D4BD9F00 /* SYPayKit */,
+				F0CC61BEA5597B2E3B12D6103E555113 /* UnionPay */,
+				23977CE9745C928E375C374FFAB6E321 /* WXPay */,
 			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		7C0E0F34E6C73B35B364780B08695AE9 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				A7775451E13221BA8E96A0EB97BC9A57 /* libWeChatSDK.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		7D71EB38C3FACACCF0CE2743D4F12E02 /* Alipay */ = {
-			isa = PBXGroup;
-			children = (
-				71E58F1AFBABCAF88FDB58C257453806 /* Frameworks */,
-				2868422FCC2A7AA0F3E33670826D5CBA /* Resources */,
-				A5136FD157DDA421C42E97B9B9454FC7 /* SYPayKit */,
-			);
-			name = Alipay;
+			name = SYPayKit;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -355,182 +513,199 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				153D1AEC59C7951C48A0FEA5C3904542 /* Development Pods */,
-				20B56609144CE204DFA8221F742B2D76 /* Frameworks */,
-				12DE1626A3929E46F119525DC01A1412 /* Products */,
+				B0DB038D054391EBC9A4389F41C81B13 /* Frameworks */,
+				8AA031110DA389B9ADE4F4FB74F65275 /* Pods */,
+				90274FF0056F86FA28A6E9054AC1D044 /* Products */,
 				01C6AEF9EBE65B0D29F76DED80779437 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		7E6F06FFE39C1F36A4A88A03A7626DCC /* Channels */ = {
+		7F83B043E39A54FD95FAA8629A873835 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				F998C0628685F7B0FEB3B2B00C977015 /* WxPay */,
-			);
-			name = Channels;
-			path = Channels;
-			sourceTree = "<group>";
-		};
-		82C5B8B78415B1CE463735567B915442 /* Channels */ = {
-			isa = PBXGroup;
-			children = (
-				9D9F20C468D22A0F07CE2FBC2718C85F /* Alipay */,
-			);
-			name = Channels;
-			path = Channels;
-			sourceTree = "<group>";
-		};
-		868AA92A10A4A9EE8773CB80C812FE0A /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				F2CE86A8683413B7DED941AF776319DB /* CFNetwork.framework */,
-				EEEDBB4AE554D57121DF9E84CD6B4B0F /* CoreMotion.framework */,
-				F3C161C0DE2FB6A4DB23EA4B2D1C35AF /* CoreTelephony.framework */,
-				6A51C5FD2ABF4470236E58D410C55A5E /* Foundation.framework */,
-				0D7D514447F36ECD7681DFE9E55FAC06 /* SystemConfiguration.framework */,
+				35D05AD9F1522A310839E8FD4E4FFF1A /* CFNetwork.framework */,
+				7F423428DEDDF25C18EE2DD9F2626C3C /* CoreGraphics.framework */,
+				F0B049128A8FA583641324F90EB30710 /* CoreMotion.framework */,
+				C791E092B7F8E788B624E215B89E6C55 /* CoreTelephony.framework */,
+				5FA02F70BD9559496AEAF0F70114DA04 /* CoreText.framework */,
+				C3B0EF5C67F7ABF0C7FA237B0DE68373 /* Foundation.framework */,
+				13202E161362D8FE3401E2289F52CCA1 /* QuartzCore.framework */,
+				2D808FB23D93D197407A893C2682C711 /* Security.framework */,
+				A9C6613181D103E135B5AB2B5C19DADB /* SystemConfiguration.framework */,
+				A2FF000B766EEECC76467307C630CC24 /* UIKit.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		8A6A0CC37B981CAE01137862910DE193 /* Alipay */ = {
+		8AA031110DA389B9ADE4F4FB74F65275 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F533F544DC67DC6C6721A140DF4D459F /* Vender */,
+				6E989C4D6DDBCD4370EBF2B9A91D3D23 /* SYAlipaySDK */,
+				45C8FE6D023914843E8B8221A2CA8207 /* SYUPPaySDK */,
+				E60856A1EF547490045A0EAEE463AF04 /* SYWechatOpenSDK */,
 			);
-			name = Alipay;
-			path = Alipay;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		8EC0C1AD12A736998B986F79FA66C970 /* SYPayKit */ = {
+		90274FF0056F86FA28A6E9054AC1D044 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A11CC7197047C28A9AF55E4C017461BF /* Core */,
+				913A73A69848B7DF57CFA30F4F496524 /* Pods_SYPayKit_Example.framework */,
+				2E2B20999B1BC3FA0332EFFB4FF08A79 /* Pods_SYPayKit_Tests.framework */,
+				E25DEE3388D8DA230B3F4B1656F6FA07 /* SYAlipaySDK.framework */,
+				1746CCB1EBECB1EF0BFA16F0EF972657 /* SYPayKit.framework */,
+				A9F8FEADA13C61092C3CD98A0A70193C /* SYUPPaySDK.framework */,
+				2A01B61535580098AF18D7E205E5EE27 /* SYWechatOpenSDK.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99E2E873E5D9E86D8DA8821D437B9405 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BE95F7A48C58102B253FD4154B09EF6 /* AlipaySDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9BFB3AE15C2103027F1039AC74B1466D /* SYPayKit */ = {
+			isa = PBXGroup;
+			children = (
+				D0FAD633D804C7965C5B7B2F9666E78F /* Channels */,
 			);
 			name = SYPayKit;
 			path = SYPayKit;
 			sourceTree = "<group>";
 		};
-		9D9F20C468D22A0F07CE2FBC2718C85F /* Alipay */ = {
+		A5A81CCCDCC2200CAC995A25355BFE3C /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				59D5BDBAFF889DB7DC939EC506A05964 /* SYAlipay.h */,
-				E7AA4240F38E3E94AEE299580B51BE4D /* SYAlipay.m */,
-			);
-			name = Alipay;
-			path = Alipay;
-			sourceTree = "<group>";
-		};
-		A0AD10C8447121D8D8A8530AC9793BAC /* SYPayKit */ = {
-			isa = PBXGroup;
-			children = (
-				A64BBFD3584361A085AA5211C02AC676 /* Channels */,
-			);
-			name = SYPayKit;
-			path = SYPayKit;
-			sourceTree = "<group>";
-		};
-		A11CC7197047C28A9AF55E4C017461BF /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				CDE1A64BF70C19E45475CDCAC88927C7 /* SYPay.h */,
-				039731F5AC5B75851706A8D71474C2AD /* SYPay.m */,
-				F8EAAD85F48E5987B5F8B3635422CC64 /* SYPayDefaultConfigurator.h */,
-				F2903646DBEF4A7918A22F46666B5845 /* SYPayDefaultConfigurator.m */,
-				A2C4C703E14CE3996C2B121B0A0BBA95 /* SYPayment.h */,
-				2C9381D4308BA0DEAEF0CC1B0AF0EE3E /* SYPayment.m */,
+				21AE70D59A64D7DF76D7165DC69E9F47 /* SYPayKit */,
 			);
 			name = Core;
-			path = Core;
 			sourceTree = "<group>";
 		};
-		A5136FD157DDA421C42E97B9B9454FC7 /* SYPayKit */ = {
+		B0DB038D054391EBC9A4389F41C81B13 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				82C5B8B78415B1CE463735567B915442 /* Channels */,
+				583C0E56140D96405059BC01A096E142 /* SYAlipaySDK.framework */,
+				625A062C0EE021C340D9DF2E805CED28 /* SYUPPaySDK.framework */,
+				A97FCA9C97E69F59378E9A6C1C5FFDD7 /* SYWechatOpenSDK.framework */,
+				7F83B043E39A54FD95FAA8629A873835 /* iOS */,
 			);
-			name = SYPayKit;
-			path = SYPayKit;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		A64BBFD3584361A085AA5211C02AC676 /* Channels */ = {
+		D0FAD633D804C7965C5B7B2F9666E78F /* Channels */ = {
 			isa = PBXGroup;
 			children = (
-				1334F7ACB1DAE4ECAD670F34C8079C8F /* UnionPay */,
+				F2E3A65D35A19AA07884142F70336BC5 /* Alipay */,
 			);
 			name = Channels;
 			path = Channels;
 			sourceTree = "<group>";
 		};
-		C40956BDE4C699630A1A8E13FA980B46 /* Vender */ = {
+		DC4FC970BD5C7A5B815C65FF13F7B164 /* WxPay */ = {
 			isa = PBXGroup;
 			children = (
-				B67852BAF5538A19A9F1B3364A9A10B9 /* WechatAuthSDK.h */,
-				6D0678B433F1CCE50874C75B11028DE1 /* WXApi.h */,
-				D2832D21E5D00F886D46745799F1C9A2 /* WXApiObject.h */,
-			);
-			name = Vender;
-			path = Vender;
-			sourceTree = "<group>";
-		};
-		CAB0FCA2A0E47FE4FE5B447312B7FE1E /* Vender */ = {
-			isa = PBXGroup;
-			children = (
-				4C3F4C7FE2A65DA60B178AD02374BACF /* paymentcontrol */,
-			);
-			name = Vender;
-			path = Vender;
-			sourceTree = "<group>";
-		};
-		E0B0693094B5F6DF035EE222CB97F35A /* SYPayKit */ = {
-			isa = PBXGroup;
-			children = (
-				7E6F06FFE39C1F36A4A88A03A7626DCC /* Channels */,
-			);
-			name = SYPayKit;
-			path = SYPayKit;
-			sourceTree = "<group>";
-		};
-		F533F544DC67DC6C6721A140DF4D459F /* Vender */ = {
-			isa = PBXGroup;
-			children = (
-				77603223540E9732636068313EE7A8E7 /* AlipaySDK.bundle */,
-			);
-			name = Vender;
-			path = Vender;
-			sourceTree = "<group>";
-		};
-		F998C0628685F7B0FEB3B2B00C977015 /* WxPay */ = {
-			isa = PBXGroup;
-			children = (
-				57F9DB57D0BFC8ED6CD92AE088C99D33 /* SYWxPay.h */,
-				9FFFBE7C6E2A9C4B883E72B31812CB79 /* SYWxPay.m */,
-				C40956BDE4C699630A1A8E13FA980B46 /* Vender */,
+				363A26D3FD70B2BD115087BF6615652F /* SYWxPay.h */,
+				CD311BB0E7E78502B3AEA45C3C4C96E5 /* SYWxPay.m */,
 			);
 			name = WxPay;
 			path = WxPay;
 			sourceTree = "<group>";
 		};
-		FD51F5B3F2B93B221ED6A820660AAB21 /* Support Files */ = {
+		DFEB8A08CD7BD33EF3221ADA5526D802 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				546DA405449E09C9E4BDEAE8308F2B98 /* Info.plist */,
-				7F83B384299CCED3F3228F075F30E572 /* SYPayKit.modulemap */,
-				547F31E3322AE4BC90F05A5CDD507B75 /* SYPayKit.xcconfig */,
-				4078333A7244495A72A7784517DE2852 /* SYPayKit-dummy.m */,
-				DE0FF61F23EA48F8D4C585037256FDFF /* SYPayKit-prefix.pch */,
-				2D63E2E15CFFF3A9E9CA243852C0049C /* SYPayKit-umbrella.h */,
+				DEAF1364B506E4E16F8BEA2A81DB31AB /* Info.plist */,
+				15E126C2D64839D81450925825BE4993 /* SYWechatOpenSDK.modulemap */,
+				F9D3052D0F5133C187017A335BAA934B /* SYWechatOpenSDK.xcconfig */,
+				F07292F27CD0C5FB7420AA64E6F1DC43 /* SYWechatOpenSDK-dummy.m */,
+				4709AD01C1AC6B7D6A122E30CD1F1B98 /* SYWechatOpenSDK-prefix.pch */,
+				BBA83903771A102054F4CEA1569D8860 /* SYWechatOpenSDK-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SYPayKit";
+			path = "../Target Support Files/SYWechatOpenSDK";
+			sourceTree = "<group>";
+		};
+		E60856A1EF547490045A0EAEE463AF04 /* SYWechatOpenSDK */ = {
+			isa = PBXGroup;
+			children = (
+				CF7585BDE0C06242CE561C58D68E0F7A /* SYWechatOpenSDKDummp.h */,
+				AF2EB3D6B60534CD2D77815B6E520149 /* SYWechatOpenSDKDummp.m */,
+				13244E753086B14EC9BAAE0951ACA337 /* WechatAuthSDK.h */,
+				93C41916033B295297F3E8AA315357A6 /* WXApi.h */,
+				DF68E2764F4E84B5EBAEC8BC8AC51BBD /* WXApiObject.h */,
+				22B9F852B2B96079F082374ADCD51855 /* Frameworks */,
+				DFEB8A08CD7BD33EF3221ADA5526D802 /* Support Files */,
+			);
+			name = SYWechatOpenSDK;
+			path = SYWechatOpenSDK;
+			sourceTree = "<group>";
+		};
+		EEED3E4D37D5AB5AAB5C0418127E2CD3 /* SYPayKit */ = {
+			isa = PBXGroup;
+			children = (
+				FA9B4FE8F5835FD247CAA450EDD0C485 /* Channels */,
+			);
+			name = SYPayKit;
+			path = SYPayKit;
+			sourceTree = "<group>";
+		};
+		F0CC61BEA5597B2E3B12D6103E555113 /* UnionPay */ = {
+			isa = PBXGroup;
+			children = (
+				EEED3E4D37D5AB5AAB5C0418127E2CD3 /* SYPayKit */,
+			);
+			name = UnionPay;
+			sourceTree = "<group>";
+		};
+		F145C3ED425DDFA232BF214D4C4657BB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B345BCEDD1E17D0E23E16E8CA8012F93 /* AlipaySDK.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F2E3A65D35A19AA07884142F70336BC5 /* Alipay */ = {
+			isa = PBXGroup;
+			children = (
+				A9BC78B62F6C957AE5AC6CAF6621F129 /* SYAlipay.h */,
+				E4457717394F06A0B23A0D242581A19B /* SYAlipay.m */,
+			);
+			name = Alipay;
+			path = Alipay;
+			sourceTree = "<group>";
+		};
+		F9853F039C6FDE8BD9E7127B0432F62E /* Alipay */ = {
+			isa = PBXGroup;
+			children = (
+				9BFB3AE15C2103027F1039AC74B1466D /* SYPayKit */,
+			);
+			name = Alipay;
+			sourceTree = "<group>";
+		};
+		FA9B4FE8F5835FD247CAA450EDD0C485 /* Channels */ = {
+			isa = PBXGroup;
+			children = (
+				5BE7AA455DF8DE5CE3EEE48F1FF4AEB8 /* UnionPay */,
+			);
+			name = Channels;
+			path = Channels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		30BD416747C1D12C7CBC3048305519EC /* Headers */ = {
+		53CF0558247C8FF260D51AFC660CE1FD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CB6EF741583948784E54179227752A6 /* Pods-SYPayKit_Example-umbrella.h in Headers */,
+				A4DCE7C3A738D8900197FA931DAC4717 /* SYUPPayDummy.h in Headers */,
+				3F20655E4DA812BC88D9ABD5ACABDECE /* SYUPPaySDK-umbrella.h in Headers */,
+				819ABEE11AFA5434476E23006BEFD5E2 /* UPPaymentControl.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -542,28 +717,107 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F0337CBEBA9CA77D4C7444FEDC7B298E /* Headers */ = {
+		7D9B6A6B3753773DB4CE2362BB6F372F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C635F5A925D44CC0D42B88B3E6CA7DB6 /* SYAlipay.h in Headers */,
-				D9EC55FFFF7E1F1BF2198537FF9BFC58 /* SYPay.h in Headers */,
-				714314E00BFDF14A9E76D3DA8DC97DE2 /* SYPayDefaultConfigurator.h in Headers */,
-				6DCCC5E08A2AADED02240A0D473CF91E /* SYPayKit-umbrella.h in Headers */,
-				A67F4CD5283FFE297E3C37F70195FD44 /* SYPayKit.h in Headers */,
-				3C7C5FB0A11FE7A128FC5409CA3FC434 /* SYPayment.h in Headers */,
-				4744E84583498D4589F92EB2A0095E3B /* SYUnionPay.h in Headers */,
-				EACEDB8181C60AD526816142D833DC18 /* SYWxPay.h in Headers */,
-				87DCABDB2067ADB22D6CF61B5FC286B6 /* UPPaymentControl.h in Headers */,
-				EC3AD313B5C7FBB346FF61C16D5E870F /* WechatAuthSDK.h in Headers */,
-				F2F43DBD259125B7CAC89A2B0D3E2BE2 /* WXApi.h in Headers */,
-				1494C4FAAA731ABD71A64474C06EFCC7 /* WXApiObject.h in Headers */,
+				0707D7D86A131311C4B0010107BDD59E /* SYAlipay.h in Headers */,
+				E2A3A3A086EB7B643C83B7EB80F54698 /* SYPay.h in Headers */,
+				C9C776089355A4FB9EBE28EEC7F87B50 /* SYPayDefaultConfigurator.h in Headers */,
+				D254CCE34501D2B2561DA23DED4D1849 /* SYPayKit-umbrella.h in Headers */,
+				E41006180ABE1003878AB1A3D663B651 /* SYPayKit.h in Headers */,
+				F7062072E4BFB08FFD39E1B91576ACC7 /* SYPayment.h in Headers */,
+				A177EFF5CCFE1DF983BD298F670CF649 /* SYUnionPay.h in Headers */,
+				BA47B727BE072A6D4842FF89CA370BF7 /* SYWxPay.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84A540D0A80A1AB08A2C59421BFD5C3A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB105E29859CCCAE48D1437F14BB26A4 /* Pods-SYPayKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F4024FB352FCA9C0419A9575F16B207 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B17C2E6277CDC069DA9E0F465DFE8A1 /* SYWechatOpenSDK-umbrella.h in Headers */,
+				93F7842A347907D486944BC02DF259A7 /* SYWechatOpenSDKDummp.h in Headers */,
+				5FA6B795D9D4AA89EADB9C1157E27F64 /* WechatAuthSDK.h in Headers */,
+				06F5EDAC6866B52FE414815A8163A026 /* WXApi.h in Headers */,
+				8C1BAD478D9F73E8FDEFFEFF622B913E /* WXApiObject.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8F43F83141387D77B97EAD290EF296F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EB65D24DB1B0B08D6B17886DA7C021 /* AlipaySDK.h in Headers */,
+				CEC46217543E0307E1C0E8DDDF0E860A /* APayAuthInfo.h in Headers */,
+				6CD10E7E18B7BA029E18E97719FEA9D1 /* SYAlipayDummp.h in Headers */,
+				45164EDA37754BD02B76F1A88FA08217 /* SYAlipaySDK-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		05D3BDEC8F381524E6D3F13011E1778D /* SYWechatOpenSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21DE0C2F1E8C281F8BD952C346071D8D /* Build configuration list for PBXNativeTarget "SYWechatOpenSDK" */;
+			buildPhases = (
+				62724A538B0CCDF03D6DD72CCE6CC975 /* Sources */,
+				C45FFCF25E8A7409A83B9C2FDD635694 /* Frameworks */,
+				8F4024FB352FCA9C0419A9575F16B207 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SYWechatOpenSDK;
+			productName = SYWechatOpenSDK;
+			productReference = 2A01B61535580098AF18D7E205E5EE27 /* SYWechatOpenSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		427374AE25FC9BF67438961BE351605D /* SYAlipaySDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3584AFCCF6F4BF6AA924EA1F222AB63A /* Build configuration list for PBXNativeTarget "SYAlipaySDK" */;
+			buildPhases = (
+				EDE395DFD2818A4C99B59BAFF62AF66D /* Sources */,
+				2A28305BAA769DE860C26D61F84929CE /* Frameworks */,
+				C8F43F83141387D77B97EAD290EF296F /* Headers */,
+				369F43C2323454F309F32269DBC03E88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SYAlipaySDK;
+			productName = SYAlipaySDK;
+			productReference = E25DEE3388D8DA230B3F4B1656F6FA07 /* SYAlipaySDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7D6303F8F6B2C5E7D8AAD56B048E202E /* SYUPPaySDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF85BFCFD820B0391EA0B38BBAF716B3 /* Build configuration list for PBXNativeTarget "SYUPPaySDK" */;
+			buildPhases = (
+				153E1F6C40C86D74BFF9A45CBB729AD1 /* Sources */,
+				E177305F074D8700BCED415B24053335 /* Frameworks */,
+				53CF0558247C8FF260D51AFC660CE1FD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SYUPPaySDK;
+			productName = SYUPPaySDK;
+			productReference = A9F8FEADA13C61092C3CD98A0A70193C /* SYUPPaySDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		B53C5B78E5EAE9782534484EF9C7FD68 /* Pods-SYPayKit_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 087FC2C0D76E542BC572D5CBA1560563 /* Build configuration list for PBXNativeTarget "Pods-SYPayKit_Tests" */;
@@ -578,43 +832,48 @@
 			);
 			name = "Pods-SYPayKit_Tests";
 			productName = "Pods-SYPayKit_Tests";
-			productReference = 61F0EBD66BDF3C53CA60A1F0BF326C7A /* Pods_SYPayKit_Tests.framework */;
+			productReference = 2E2B20999B1BC3FA0332EFFB4FF08A79 /* Pods_SYPayKit_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C66C9EBB9FF080620DF7D9BB83ADAC68 /* SYPayKit */ = {
+		C73EC47F4A611668C2E2184710020A86 /* Pods-SYPayKit_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 900172BD3835BDCB29BC6C32978DECE8 /* Build configuration list for PBXNativeTarget "SYPayKit" */;
+			buildConfigurationList = 3B8CC2EE33B094A2E176534E9DD374F8 /* Build configuration list for PBXNativeTarget "Pods-SYPayKit_Example" */;
 			buildPhases = (
-				AF3CE86ADF5DF4C41AE0C3FC567A607D /* Sources */,
-				1609328ED09DEDE321F675FC0E053FA8 /* Frameworks */,
-				F0337CBEBA9CA77D4C7444FEDC7B298E /* Headers */,
-				8B6ED1EB3B0602333CC63DA94E97B3F9 /* Resources */,
+				102EA42AABF4E2A2163F5981C3648E2F /* Sources */,
+				AB3BC27DC417F0D8FE95846CD8A2A08B /* Frameworks */,
+				84A540D0A80A1AB08A2C59421BFD5C3A /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = SYPayKit;
-			productName = SYPayKit;
-			productReference = 747AC1ABDA83D8FA2A67607F86C01A27 /* SYPayKit.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		D9995F15648E58C981479D310EE54588 /* Pods-SYPayKit_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D85D4CB091F1EB40D0F21CE745A8A55A /* Build configuration list for PBXNativeTarget "Pods-SYPayKit_Example" */;
-			buildPhases = (
-				AE4A2C6ACD30D220E4F7334684E29B42 /* Sources */,
-				2916C4530C36D2E2AFACAA3B1CC0FF59 /* Frameworks */,
-				30BD416747C1D12C7CBC3048305519EC /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7BC3D5D36DEB5A3D9A249DC1E941966D /* PBXTargetDependency */,
+				980E7661FFC7937013F54D10D234D4C2 /* PBXTargetDependency */,
+				A87C10B7802CCB69C49B109F8A02DBB9 /* PBXTargetDependency */,
+				FF761F7F1BAF3722613088E5A43C5AB8 /* PBXTargetDependency */,
+				38FBF88CCF6539A04B0A99A5D8359189 /* PBXTargetDependency */,
 			);
 			name = "Pods-SYPayKit_Example";
 			productName = "Pods-SYPayKit_Example";
-			productReference = A56DB78D2A4EED2B849DB81BD7A7C546 /* Pods_SYPayKit_Example.framework */;
+			productReference = 913A73A69848B7DF57CFA30F4F496524 /* Pods_SYPayKit_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CC8B0703C3A49F0BE551D9B4E960A81F /* SYPayKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9993ACA02D90C9D8959A8646C881112 /* Build configuration list for PBXNativeTarget "SYPayKit" */;
+			buildPhases = (
+				17AE13238D1C492F4B4104B15B08D03D /* Sources */,
+				E8EDF7F39D1D26DC94728743908DC2B9 /* Frameworks */,
+				7D9B6A6B3753773DB4CE2362BB6F372F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB6D15EE6F964FCE918664C2DDB124C6 /* PBXTargetDependency */,
+				2AD46E85534B54AB43F0F870C27A4691 /* PBXTargetDependency */,
+				665E9D80BB906F4E12C000D48FE7B137 /* PBXTargetDependency */,
+			);
+			name = SYPayKit;
+			productName = SYPayKit;
+			productReference = 1746CCB1EBECB1EF0BFA16F0EF972657 /* SYPayKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -634,48 +893,69 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 12DE1626A3929E46F119525DC01A1412 /* Products */;
+			productRefGroup = 90274FF0056F86FA28A6E9054AC1D044 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D9995F15648E58C981479D310EE54588 /* Pods-SYPayKit_Example */,
+				C73EC47F4A611668C2E2184710020A86 /* Pods-SYPayKit_Example */,
 				B53C5B78E5EAE9782534484EF9C7FD68 /* Pods-SYPayKit_Tests */,
-				C66C9EBB9FF080620DF7D9BB83ADAC68 /* SYPayKit */,
+				427374AE25FC9BF67438961BE351605D /* SYAlipaySDK */,
+				CC8B0703C3A49F0BE551D9B4E960A81F /* SYPayKit */,
+				7D6303F8F6B2C5E7D8AAD56B048E202E /* SYUPPaySDK */,
+				05D3BDEC8F381524E6D3F13011E1778D /* SYWechatOpenSDK */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8B6ED1EB3B0602333CC63DA94E97B3F9 /* Resources */ = {
+		369F43C2323454F309F32269DBC03E88 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53375FD20DD885E61459C7274E1B3905 /* AlipaySDK.bundle in Resources */,
+				CBB500CDA22EC8143A2AFDA3D595BDC5 /* AlipaySDK.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AE4A2C6ACD30D220E4F7334684E29B42 /* Sources */ = {
+		102EA42AABF4E2A2163F5981C3648E2F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFD3A8DA6FB938841676C4F4F32F3772 /* Pods-SYPayKit_Example-dummy.m in Sources */,
+				79CB5FF230A2CCDF123289B9586A7BA5 /* Pods-SYPayKit_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AF3CE86ADF5DF4C41AE0C3FC567A607D /* Sources */ = {
+		153E1F6C40C86D74BFF9A45CBB729AD1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCBF3B7AA984DFDB57306A46768FA99B /* SYAlipay.m in Sources */,
-				D42F275701F861F9AACC69C3BB526C19 /* SYPay.m in Sources */,
-				88F254E0B11894F696DD9361FF05C818 /* SYPayDefaultConfigurator.m in Sources */,
-				B95A76ADBE5C73E2FF2735EB2E8AE683 /* SYPayKit-dummy.m in Sources */,
-				F4BEAC1E183593150689028949E40D8B /* SYPayment.m in Sources */,
-				552143D8379B15681FCC11E825B05ECC /* SYUnionPay.m in Sources */,
-				1092D53B38849341C9005427C62D82E9 /* SYWxPay.m in Sources */,
+				91D782720CD2D80BC7D77BCBC560B6FC /* SYUPPayDummy.m in Sources */,
+				071C00278C5059E367F19D66ACFA4026 /* SYUPPaySDK-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17AE13238D1C492F4B4104B15B08D03D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B1DF017885831ADAAB863DD8066163D /* SYAlipay.m in Sources */,
+				B0836EB4311AEDBA85E7C5FB1DBC07D3 /* SYPay.m in Sources */,
+				75E23FBFB4D510A55A7A23853D4AECE5 /* SYPayDefaultConfigurator.m in Sources */,
+				48E886E71EA4ACE1ACEFB7D3A332CB69 /* SYPayKit-dummy.m in Sources */,
+				F87B0C8F44580674AC8284651ABA9E69 /* SYPayment.m in Sources */,
+				66CDAE059F63AFC242409C86BDA50DC1 /* SYUnionPay.m in Sources */,
+				63B45B3CCBA9734DEE2BB3B4F8BDC9CE /* SYWxPay.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62724A538B0CCDF03D6DD72CCE6CC975 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0316DF99CC10EE8FCEF077D9D49DCB7 /* SYWechatOpenSDK-dummy.m in Sources */,
+				367798507026B112E54740073AC93F9E /* SYWechatOpenSDKDummp.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -687,50 +967,130 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EDE395DFD2818A4C99B59BAFF62AF66D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEF7C7B0142BEE2BB4576AED9D21B069 /* SYAlipayDummp.m in Sources */,
+				E85420CD4C08C326B0267D4B45953D94 /* SYAlipaySDK-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		7BC3D5D36DEB5A3D9A249DC1E941966D /* PBXTargetDependency */ = {
+		2AD46E85534B54AB43F0F870C27A4691 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SYUPPaySDK;
+			target = 7D6303F8F6B2C5E7D8AAD56B048E202E /* SYUPPaySDK */;
+			targetProxy = 13ABBFE6D51CE93C6334E20DD3CCF64E /* PBXContainerItemProxy */;
+		};
+		38FBF88CCF6539A04B0A99A5D8359189 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SYWechatOpenSDK;
+			target = 05D3BDEC8F381524E6D3F13011E1778D /* SYWechatOpenSDK */;
+			targetProxy = 577A5C87620BBF6794F5AC4F1492C4C6 /* PBXContainerItemProxy */;
+		};
+		665E9D80BB906F4E12C000D48FE7B137 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SYWechatOpenSDK;
+			target = 05D3BDEC8F381524E6D3F13011E1778D /* SYWechatOpenSDK */;
+			targetProxy = 7D4C611BFEF85024DE91A30DC5290713 /* PBXContainerItemProxy */;
+		};
+		980E7661FFC7937013F54D10D234D4C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SYAlipaySDK;
+			target = 427374AE25FC9BF67438961BE351605D /* SYAlipaySDK */;
+			targetProxy = F70EFB7BDBFCEBBDCE3C1153E9801B08 /* PBXContainerItemProxy */;
+		};
+		A87C10B7802CCB69C49B109F8A02DBB9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SYPayKit;
-			target = C66C9EBB9FF080620DF7D9BB83ADAC68 /* SYPayKit */;
-			targetProxy = DAE7CC4E8732ED3BBD8BCFDB0CB8F51E /* PBXContainerItemProxy */;
+			target = CC8B0703C3A49F0BE551D9B4E960A81F /* SYPayKit */;
+			targetProxy = CC4BF4D826D5D6EA1D270510CBADA33F /* PBXContainerItemProxy */;
+		};
+		DB6D15EE6F964FCE918664C2DDB124C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SYAlipaySDK;
+			target = 427374AE25FC9BF67438961BE351605D /* SYAlipaySDK */;
+			targetProxy = 875B0504FF22783F0D1AA624BDA9336B /* PBXContainerItemProxy */;
+		};
+		FF761F7F1BAF3722613088E5A43C5AB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SYUPPaySDK;
+			target = 7D6303F8F6B2C5E7D8AAD56B048E202E /* SYUPPaySDK */;
+			targetProxy = 5202EF178D5CADDE54EFE2E6DA2E5693 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		093AC151D89F36001234CF95503FDABD /* Debug */ = {
+		3DD310EB57B1DA89395788F9BDA4D1F1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 547F31E3322AE4BC90F05A5CDD507B75 /* SYPayKit.xcconfig */;
+			baseConfigurationReference = 0A37A365FE31AFC5F6DB2DC2DE99FD69 /* Pods-SYPayKit_Example.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SYPayKit/SYPayKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SYPayKit/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-SYPayKit_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SYPayKit/SYPayKit.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SYPayKit;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SYPayKit_Example/Pods-SYPayKit_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SYPayKit_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		70EA798566C0179E88F4CCAFD9BDF191 /* Debug */ = {
+		67EB06CD51D1F125D5278E342A69EDDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9D3052D0F5133C187017A335BAA934B /* SYWechatOpenSDK.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SYWechatOpenSDK/SYWechatOpenSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SYWechatOpenSDK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SYWechatOpenSDK/SYWechatOpenSDK.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SYWechatOpenSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		700B4541618E314F389DC4FA39E734D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6BDF89EF048849D999DE553D74914825 /* Pods-SYPayKit_Example.debug.xcconfig */;
 			buildSettings = {
@@ -799,6 +1159,68 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		79A6FD277A55B8BA09B0A3E2462DA4CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FDEDFDEEE8EE3CBABF8E9AD06AFC778 /* SYUPPaySDK.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SYUPPaySDK/SYUPPaySDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SYUPPaySDK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SYUPPaySDK/SYUPPaySDK.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SYUPPaySDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7CAA6100766A0506FC6A20CB8C07703D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FDEDFDEEE8EE3CBABF8E9AD06AFC778 /* SYUPPaySDK.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SYUPPaySDK/SYUPPaySDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SYUPPaySDK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SYUPPaySDK/SYUPPaySDK.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SYUPPaySDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		7E0B0064B94712CB8341C375250CBAAC /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -919,9 +1341,133 @@
 			};
 			name = Debug;
 		};
-		C3BD9871F41B2355B18006C4A11F8611 /* Release */ = {
+		A45E268F13D5A592D9E520F5492B5CD3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 547F31E3322AE4BC90F05A5CDD507B75 /* SYPayKit.xcconfig */;
+			baseConfigurationReference = 62A592C8A37596A6CB57DFE689562983 /* SYAlipaySDK.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SYAlipaySDK/SYAlipaySDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SYAlipaySDK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SYAlipaySDK/SYAlipaySDK.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SYAlipaySDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BAF1E095ACEAF318A0E02D3EAAE5CA66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62A592C8A37596A6CB57DFE689562983 /* SYAlipaySDK.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SYAlipaySDK/SYAlipaySDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SYAlipaySDK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SYAlipaySDK/SYAlipaySDK.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SYAlipaySDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E9E31693862E5B0DFCF155B85013BFD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F29790C49A1E8C19A049FCD3B008EA22 /* SYPayKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SYPayKit/SYPayKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SYPayKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SYPayKit/SYPayKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SYPayKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FB58BE226F5371276AE56CB4AC4DDDB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9D3052D0F5133C187017A335BAA934B /* SYWechatOpenSDK.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SYWechatOpenSDK/SYWechatOpenSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SYWechatOpenSDK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SYWechatOpenSDK/SYWechatOpenSDK.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SYWechatOpenSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FB6B075870B81E23F6929A07353873E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F29790C49A1E8C19A049FCD3B008EA22 /* SYPayKit.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -950,41 +1496,6 @@
 			};
 			name = Release;
 		};
-		DE23037FFD8D2D3167764995F3EFB4F2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0A37A365FE31AFC5F6DB2DC2DE99FD69 /* Pods-SYPayKit_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-SYPayKit_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SYPayKit_Example/Pods-SYPayKit_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_SYPayKit_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -993,6 +1504,15 @@
 			buildConfigurations = (
 				77FF5829CAE120EC925AC162461E34FD /* Debug */,
 				7E0B0064B94712CB8341C375250CBAAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21DE0C2F1E8C281F8BD952C346071D8D /* Build configuration list for PBXNativeTarget "SYWechatOpenSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB58BE226F5371276AE56CB4AC4DDDB2 /* Debug */,
+				67EB06CD51D1F125D5278E342A69EDDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1006,20 +1526,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		900172BD3835BDCB29BC6C32978DECE8 /* Build configuration list for PBXNativeTarget "SYPayKit" */ = {
+		3584AFCCF6F4BF6AA924EA1F222AB63A /* Build configuration list for PBXNativeTarget "SYAlipaySDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				093AC151D89F36001234CF95503FDABD /* Debug */,
-				C3BD9871F41B2355B18006C4A11F8611 /* Release */,
+				A45E268F13D5A592D9E520F5492B5CD3 /* Debug */,
+				BAF1E095ACEAF318A0E02D3EAAE5CA66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D85D4CB091F1EB40D0F21CE745A8A55A /* Build configuration list for PBXNativeTarget "Pods-SYPayKit_Example" */ = {
+		3B8CC2EE33B094A2E176534E9DD374F8 /* Build configuration list for PBXNativeTarget "Pods-SYPayKit_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				70EA798566C0179E88F4CCAFD9BDF191 /* Debug */,
-				DE23037FFD8D2D3167764995F3EFB4F2 /* Release */,
+				700B4541618E314F389DC4FA39E734D3 /* Debug */,
+				3DD310EB57B1DA89395788F9BDA4D1F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9993ACA02D90C9D8959A8646C881112 /* Build configuration list for PBXNativeTarget "SYPayKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9E31693862E5B0DFCF155B85013BFD2 /* Debug */,
+				FB6B075870B81E23F6929A07353873E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF85BFCFD820B0391EA0B38BBAF716B3 /* Build configuration list for PBXNativeTarget "SYUPPaySDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79A6FD277A55B8BA09B0A3E2462DA4CA /* Debug */,
+				7CAA6100766A0506FC6A20CB8C07703D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,0 +1,6 @@
+framework module SYAlipaySDK {
+  umbrella header "SYAlipaySDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

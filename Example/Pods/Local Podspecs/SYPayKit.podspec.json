@@ -1,8 +1,8 @@
 {
   "name": "SYPayKit",
   "version": "0.1.0",
-  "summary": "A short description of SYPayKit.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "集成微信、银联、支付宝支付",
+  "description": "1. 集成微信、银联、支付宝三种支付方式\n2. 对外抽象统一接口\n3. 支持OC，Swift项目，可以打包成动态库",
   "homepage": "https://github.com/isandboy/SYPayKit",
   "license": {
     "type": "MIT",
@@ -31,15 +31,11 @@
     {
       "name": "Alipay",
       "source_files": "SYPayKit/Channels/Alipay/*.{h,m}",
-      "frameworks": [
-        "CoreTelephony",
-        "SystemConfiguration",
-        "CoreMotion"
-      ],
-      "vendored_frameworks": "SYPayKit/Channels/Alipay/**/AlipaySDK.framework",
-      "resources": "SYPayKit/Channels/Alipay/**/AlipaySDK.bundle",
       "dependencies": {
         "SYPayKit/Core": [
+
+        ],
+        "SYAlipaySDK": [
 
         ]
       }
@@ -47,15 +43,11 @@
     {
       "name": "WXPay",
       "source_files": "SYPayKit/Channels/WxPay/**/*.{h,m}",
-      "vendored_libraries": "SYPayKit/Channels/WxPay/**/*.a",
-      "libraries": [
-        "c++",
-        "sqlite3",
-        "z"
-      ],
-      "frameworks": "CoreTelephony",
       "dependencies": {
         "SYPayKit/Core": [
+
+        ],
+        "SYWechatOpenSDK": [
 
         ]
       }
@@ -63,9 +55,11 @@
     {
       "name": "UnionPay",
       "source_files": "SYPayKit/Channels/UnionPay/**/*.{h,m}",
-      "vendored_libraries": "SYPayKit/Channels/UnionPay/**/*.a",
       "dependencies": {
         "SYPayKit/Core": [
+
+        ],
+        "SYUPPaySDK": [
 
         ]
       }

@@ -41,27 +41,20 @@ Pod::Spec.new do |s|
 
   s.subspec 'Alipay' do |ss|
     ss.source_files = 'SYPayKit/Channels/Alipay/*.{h,m}'
-    ss.resource = 'SYPayKit/Channels/Alipay/**/AlipaySDK.bundle'
-    ss.frameworks = 'CoreTelephony', 'SystemConfiguration', 'CoreMotion'
-    ss.vendored_frameworks = 'SYPayKit/Channels/Alipay/**/AlipaySDK.framework'
-    ss.libraries = 'c++', 'sqlite3', 'z'
     ss.dependency 'SYPayKit/Core'
+    ss.dependency 'SYAlipaySDK'
   end
 
   s.subspec 'WXPay' do |ss|
     ss.source_files = 'SYPayKit/Channels/WxPay/**/*.{h,m}'
-    ss.vendored_libraries = 'SYPayKit/Channels/WxPay/**/*.a'
-    ss.libraries = 'c++', 'sqlite3', 'z'
-    ss.frameworks = 'CoreTelephony'
-#ss.dependency 'WechatOpenSDK'
     ss.dependency 'SYPayKit/Core'
+    ss.dependency 'SYWechatOpenSDK'
   end
 
   s.subspec 'UnionPay' do |ss|
     ss.source_files = 'SYPayKit/Channels/UnionPay/**/*.{h,m}'
-    ss.vendored_libraries = 'SYPayKit/Channels/UnionPay/**/*.a'
-    ss.libraries = 'c++', 'sqlite3', 'z'
     ss.dependency 'SYPayKit/Core'
+    ss.dependency 'SYUPPaySDK'
   end
 
   # s.subspec 'ApplePay' do |ss|

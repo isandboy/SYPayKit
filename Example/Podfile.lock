@@ -1,27 +1,36 @@
 PODS:
+  - SYAlipaySDK (1.0.0)
   - SYPayKit (0.1.0):
     - SYPayKit/Alipay (= 0.1.0)
     - SYPayKit/Core (= 0.1.0)
     - SYPayKit/UnionPay (= 0.1.0)
     - SYPayKit/WXPay (= 0.1.0)
   - SYPayKit/Alipay (0.1.0):
+    - SYAlipaySDK
     - SYPayKit/Core
   - SYPayKit/Core (0.1.0)
   - SYPayKit/UnionPay (0.1.0):
     - SYPayKit/Core
+    - SYUPPaySDK
   - SYPayKit/WXPay (0.1.0):
     - SYPayKit/Core
+    - SYWechatOpenSDK
+  - SYUPPaySDK (1.0.0)
+  - SYWechatOpenSDK (1.7.9)
 
 DEPENDENCIES:
   - SYPayKit (from `../`)
 
 EXTERNAL SOURCES:
   SYPayKit:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  SYPayKit: e50d67e21bda70acb376245dca4e762a38f25531
+  SYAlipaySDK: 051b38903d754f4fbbced7233d5708be83b97478
+  SYPayKit: 8038f0d0ae8a847762f1b5785a748bec055d3afa
+  SYUPPaySDK: bcd1200f0283ceeb3aa28ca51dbc3551a483fb72
+  SYWechatOpenSDK: f93b2e77a3ea8cdb70d535ec1605a5612bac72d6
 
-PODFILE CHECKSUM: 898431d697c49616f8039fb7009ce36113ae80fd
+PODFILE CHECKSUM: e01a293193a8d454d3a1bd6ce53646314df90d8c
 
-COCOAPODS: 1.2.0
+COCOAPODS: 1.1.1

@@ -5,6 +5,5 @@ target 'SYPayKit_Example' do
 
   target 'SYPayKit_Tests' do
     inherit! :search_paths
-
   end
 end

@@ -7,7 +7,8 @@
 //
 
 #import "SYPayManager.h"
-#import <SYPayKit/SYPayKit.h>
+
+@import SYPayKit;
 
 NSString *const kMSPayResultMessage = @"kMSPayResultMessage";
 

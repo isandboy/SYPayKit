@@ -7,7 +7,8 @@
 //
 
 #import "SYAlipay.h"
-#import <AlipaySDK/AlipaySDK.h>
+
+@import SYAlipaySDK;
 
 @interface SYAlipay ()
 
