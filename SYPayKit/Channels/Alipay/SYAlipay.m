@@ -8,7 +8,11 @@
 
 #import "SYAlipay.h"
 
-@import SYAlipaySDK;
+#if __has_include(<SYAlipaySDK/AlipaySDK.h>)
+#import <SYAlipaySDK/AlipaySDK.h>
+#else
+#import <AlipaySDK/AlipaySDK.h>
+#endif
 
 @interface SYAlipay ()
 

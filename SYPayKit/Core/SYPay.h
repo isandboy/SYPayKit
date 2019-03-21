@@ -24,7 +24,7 @@ NS_ASSUME_NONNULL_BEGIN
  *  说明： *微信支付 success：YES,去后端验证，否则提示用户支付失败信息
  *  注意：不能success=YES，作为用户支付成功的结果，应以服务器端的接收的支付通知或查询API返回的结果为准
  *  @param charge           以kSYPayOrderKey为key的订单，对应的value为格式参考readme说明文档
- *  @param completionBlock  支付结果回调 Block
+ *  @paramSYPayResultHandle 支付结果回调 Block
  */
 + (void)payment:(SYPayment *)payment withOrderInfo:(NSDictionary *)charge withCompletion:(SYPayResultHandle)handle;
 
@@ -33,7 +33,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  *  @param charge           以kSYPayOrderKey为key的订单，对应的value为格式参考readme说明文档
  *  @param viewController   银联渠道需要
- *  @param completionBlock  支付结果回调 Block
+ *  @paramSYPayResultHandle 支付结果回调 Block
  */
 + (void)payment:(SYPayment *)payment withOrderInfo:(NSDictionary *)charge viewController:(nullable UIViewController *)viewController withCompletion:(SYPayResultHandle)handle;
 

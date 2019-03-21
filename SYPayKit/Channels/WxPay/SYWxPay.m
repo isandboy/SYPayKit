@@ -8,7 +8,7 @@
 
 #import "SYWxPay.h"
 
-@import SYWechatOpenSDK;
+#import <SYWechatOpenSDK/WXApi.h>
 
 @interface SYWxPay()<WXApiDelegate>
 
@@ -46,8 +46,8 @@
  *  微信支付
  *  success：YES,去后端验证，否则提示用户支付失败信息
  *  注意：不能success=YES，作为用户支付成功的结果，应以服务器端的接收的支付通知或查询API返回的结果为准
- *  @param parmsList  后台返回来的预支付订单的各个参数
- *  @param completion 回调到客户端
+ *  @param order  后台返回来的预支付订单的各个参数
+ *  @paramSYPayResultHandle 回调到客户端
  */
 - (void)jumpToPay:(NSObject *)order result:(SYPayResultHandle)resultHandle{
     if (![WXApi isWXAppInstalled]) {
