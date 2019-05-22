@@ -4,7 +4,7 @@
 //
 //  Created by qcao on 15/10/20.
 //  Copyright © 2015年 China Unionpay Co.,Ltd. All rights reserved.
-//
+//  v3.3.12
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
@@ -34,9 +34,10 @@ typedef void (^UPPaymentResultBlock)(NSString* code, NSDictionary* data);
  *  @param viewController 启动支付控件的viewController
  *  @return 返回成功失败
  */
-
-
-- (BOOL)startPay:(NSString*)tn fromScheme:(NSString *)schemeStr mode:(NSString*)mode viewController:(UIViewController*)viewController;
+- (BOOL)startPay:(NSString*)tn
+      fromScheme:(NSString *)schemeStr
+            mode:(NSString*)mode
+  viewController:(UIViewController*)viewController;
 
 
 

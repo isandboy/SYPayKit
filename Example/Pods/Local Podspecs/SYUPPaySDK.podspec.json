@@ -1,7 +1,7 @@
 {
   "name": "SYUPPaySDK",
-  "version": "1.0.0",
-  "summary": "集成银联支付SDK，支持打包成动态库",
+  "version": "2.0.0",
+  "summary": "集成银联支付SDK(v3.3.12), 银联苹果支付SDK(v4.2.2)，支持打包成动态库",
   "description": "在银联支付官方SDK上包了一层，支持打包成动态库",
   "homepage": "https://github.com/isandboy/SYUPPaySDK",
   "license": {
@@ -13,20 +13,44 @@
   },
   "source": {
     "git": "https://github.com/isandboy/SYUPPaySDK.git",
-    "tag": "1.0.0"
+    "tag": "2.0.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "public_header_files": "SYUPPaySDK/paymentcontrol/**/*.h",
-  "source_files": "SYUPPaySDK/**/*.{h,m}",
-  "vendored_libraries": "SYUPPaySDK/paymentcontrol/**/*.a",
-  "libraries": [
-    "c++",
-    "z",
-    "sqlite3"
-  ],
-  "pod_target_xcconfig": {
-    "OTHER_LDFLAGS": "-all_load"
-  }
+  "subspecs": [
+    {
+      "name": "PayWallet",
+      "source_files": "SYUPPaySDK/paymentcontrol/**/*.{h,m}",
+      "frameworks": [
+        "CFNetwork",
+        "SystemConfiguration"
+      ],
+      "vendored_libraries": "SYUPPaySDK/paymentcontrol/**/*.a",
+      "libraries": [
+        "z",
+        "c++"
+      ],
+      "pod_target_xcconfig": {
+        "OTHER_LDFLAGS": "-all_load"
+      }
+    },
+    {
+      "name": "ApplyPay",
+      "source_files": "SYUPPaySDK/applePaySDK/**/*.{h,m}",
+      "frameworks": [
+        "CFNetwork",
+        "SystemConfiguration",
+        "PassKit"
+      ],
+      "vendored_libraries": "SYUPPaySDK/applePaySDK/**/*.a",
+      "libraries": [
+        "z",
+        "c++"
+      ],
+      "pod_target_xcconfig": {
+        "OTHER_LDFLAGS": "-all_load"
+      }
+    }
+  ]
 }

@@ -2,6 +2,8 @@ use_frameworks!
 
 target 'SYPayKit_Example' do
   pod 'SYPayKit', :path => '../'
+  
+  pod 'SYUPPaySDK', :subspecs => ['PayWallet', 'ApplyPay'], :git => "https://github.com/isandboy/SYUPPaySDK.git"
 
   target 'SYPayKit_Tests' do
     inherit! :search_paths

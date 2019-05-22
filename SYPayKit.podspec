@@ -54,8 +54,14 @@ Pod::Spec.new do |s|
   s.subspec 'UnionPay' do |ss|
     ss.source_files = 'SYPayKit/Channels/UnionPay/**/*.{h,m}'
     ss.dependency 'SYPayKit/Core'
-    ss.dependency 'SYUPPaySDK'
+    ss.dependency 'SYUPPaySDK/PayWallet'
   end
+
+  s.subspec 'UnionApplePay' do |ss|
+    ss.source_files = 'SYPayKit/Channels/UnionApplePay/**/*.{h,m}'
+    ss.dependency 'SYPayKit/Core'
+    ss.dependency 'SYUPPaySDK/ApplyPay'
+end
 
   # s.subspec 'ApplePay' do |ss|
   #   ss.source_files = 'SYPayKit/Channels/ApplePay/*.{h,m}'

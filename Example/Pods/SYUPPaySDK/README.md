@@ -16,9 +16,20 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 SYUPPaySDK is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
+默认苹果银联支付
+
 ```ruby
-pod "SYUPPaySDK"
+pod "SYUPPaySDK" # 银联支付, 银联苹果支付
+pod "SYUPPaySDK/PayWallet" # 银联支付
+pod "SYUPPaySDK/ApplyPay" # 银联苹果支付
+
 ```
+
+## 文档详情
+
+银联支付文档：https://open.unionpay.com/ajweb/help/file/techFile?productId=3
+
+银联苹果支付文档：https://open.unionpay.com/ajweb/help/file/toDetailPage?id=597&flag=2
 
 ## Author
 

@@ -22,6 +22,14 @@
 	<string>????</string>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>uppaysdk</string>
+		<string>uppaywallet</string>
+		<string>uppayx2</string>
+		<string>uppayx1</string>
+		<string>uppayx3</string>
+	</array>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>UILaunchStoryboardName</key>

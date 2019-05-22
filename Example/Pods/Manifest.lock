@@ -1,36 +1,55 @@
 PODS:
   - SYAlipaySDK (1.0.0)
-  - SYPayKit (0.1.0):
-    - SYPayKit/Alipay (= 0.1.0)
-    - SYPayKit/Core (= 0.1.0)
-    - SYPayKit/UnionPay (= 0.1.0)
-    - SYPayKit/WXPay (= 0.1.0)
-  - SYPayKit/Alipay (0.1.0):
+  - SYPayKit (0.1.1):
+    - SYPayKit/Alipay (= 0.1.1)
+    - SYPayKit/Core (= 0.1.1)
+    - SYPayKit/UnionApplePay (= 0.1.1)
+    - SYPayKit/UnionPay (= 0.1.1)
+    - SYPayKit/WXPay (= 0.1.1)
+  - SYPayKit/Alipay (0.1.1):
     - SYAlipaySDK
     - SYPayKit/Core
-  - SYPayKit/Core (0.1.0)
-  - SYPayKit/UnionPay (0.1.0):
+  - SYPayKit/Core (0.1.1)
+  - SYPayKit/UnionApplePay (0.1.1):
     - SYPayKit/Core
-    - SYUPPaySDK
-  - SYPayKit/WXPay (0.1.0):
+    - SYUPPaySDK/ApplyPay
+  - SYPayKit/UnionPay (0.1.1):
+    - SYPayKit/Core
+    - SYUPPaySDK/PayWallet
+  - SYPayKit/WXPay (0.1.1):
     - SYPayKit/Core
     - SYWechatOpenSDK
-  - SYUPPaySDK (1.0.0)
+  - SYUPPaySDK/ApplyPay (2.0.0)
+  - SYUPPaySDK/PayWallet (2.0.0)
   - SYWechatOpenSDK (1.7.9)
 
 DEPENDENCIES:
   - SYPayKit (from `../`)
+  - SYUPPaySDK/ApplyPay (from `https://github.com/isandboy/SYUPPaySDK.git`)
+  - SYUPPaySDK/PayWallet (from `https://github.com/isandboy/SYUPPaySDK.git`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SYAlipaySDK
+    - SYWechatOpenSDK
 
 EXTERNAL SOURCES:
   SYPayKit:
     :path: "../"
+  SYUPPaySDK:
+    :git: https://github.com/isandboy/SYUPPaySDK.git
+
+CHECKOUT OPTIONS:
+  SYUPPaySDK:
+    :commit: 2007fe499d9ea0edb543472f00c3cb36cd5f7678
+    :git: https://github.com/isandboy/SYUPPaySDK.git
 
 SPEC CHECKSUMS:
   SYAlipaySDK: 051b38903d754f4fbbced7233d5708be83b97478
-  SYPayKit: 8038f0d0ae8a847762f1b5785a748bec055d3afa
-  SYUPPaySDK: bcd1200f0283ceeb3aa28ca51dbc3551a483fb72
+  SYPayKit: 310a34987bf1469d1743b09ec77ce1903ca75746
+  SYUPPaySDK: 80663fb5e0b09db310d40f58157259c087e9408d
   SYWechatOpenSDK: f93b2e77a3ea8cdb70d535ec1605a5612bac72d6
 
-PODFILE CHECKSUM: e01a293193a8d454d3a1bd6ce53646314df90d8c
+PODFILE CHECKSUM: 2b46d62e9ba4bd0606772ea4b5045d7c6029ad4e
 
-COCOAPODS: 1.1.1
+COCOAPODS: 1.6.2

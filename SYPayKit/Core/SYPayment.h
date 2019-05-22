@@ -82,14 +82,17 @@ typedef void(^SYPayResultHandle)(SYPayResultStatus status, NSDictionary * __null
 - (BOOL)registerApp:(NSString *)appid;
 
 - (void)setDebugMode:(BOOL)enabled;
+    
+// 苹果公司分配的商户号,表示调用Apple Pay所需要的MerchantID;
+@property (nonatomic, copy) NSString *merchantID;
 
 @end
 
 @interface SYPayment : NSObject<SYPayment>
 
-//应用注册scheme,在AlixPayDemo-Info.plist定义URL types
-@property (nonatomic, strong) NSString *appScheme;
-
+// 应用注册scheme,在AlixPayDemo-Info.plist定义URL types
+@property (nonatomic, copy) NSString *appScheme;
+    
 @property (nonatomic, copy) SYPayResultHandle payResultHandle;
 
 @end

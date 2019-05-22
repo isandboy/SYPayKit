@@ -86,8 +86,16 @@ iOS 9 以上版本如果需要使用支付宝和微信渠道，需要在 Info.pl
     <string>weixin</string>
     <string>wechat</string>
     <string>alipay</string>
+	<string>uppaywallet</string>
+	<string>uppaysdk</string>
+	<string>uppayx1</string>
+	<string>uppayx2</string>
+	<string>uppayx3</string>
+
 </array>
 ```
+
+银联支付文档：https://open.unionpay.com/ajweb/help/file/techFile?productId=3
 
 ## Author
 

@@ -1,6 +1,6 @@
 {
   "name": "SYPayKit",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "集成微信、银联、支付宝支付",
   "description": "1. 集成微信、银联、支付宝三种支付方式\n2. 对外抽象统一接口\n3. 支持OC，Swift项目，可以打包成动态库",
   "homepage": "https://github.com/isandboy/SYPayKit",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/isandboy/SYPayKit.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
@@ -59,7 +59,19 @@
         "SYPayKit/Core": [
 
         ],
-        "SYUPPaySDK": [
+        "SYUPPaySDK/PayWallet": [
+
+        ]
+      }
+    },
+    {
+      "name": "UnionApplePay",
+      "source_files": "SYPayKit/Channels/UnionApplePay/**/*.{h,m}",
+      "dependencies": {
+        "SYPayKit/Core": [
+
+        ],
+        "SYUPPaySDK/ApplyPay": [
 
         ]
       }

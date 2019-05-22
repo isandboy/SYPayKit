@@ -31,7 +31,7 @@ static const NSInteger kDefaultPayUnInstallStatus = 3; //应用未安装
 
 + (void)initialize {
     SYPayDefaultConfigurator *payDefalutConfigurator = [[SYPayDefaultConfigurator alloc] init];
-    payDefalutConfigurator.appScheme = @"你的target的scheme";
+    payDefalutConfigurator.appScheme = @"SYPayKit_Example";
     payDefalutConfigurator.wxPayAppId = @"在微信平台申请的appid";
     [SYPay setPayPayDefaultConfigurator:payDefalutConfigurator];
 }
